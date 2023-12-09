@@ -2,6 +2,7 @@ import React from "react";
 import './footer2.css'
 import './footer.css'
 import imagen from './img/ticoMarket.png'
+import { Link } from "react-router-dom";
 
 
 export function Footer(){
@@ -36,7 +37,10 @@ export function Footer(){
         <aside className="widget widget_footer">
           <h4 className="widget-title">Enlaces rápidos y Recursos</h4>
           <ul className="ps-list--link">
+            <Link to="./politicas">
             <li><a href="politicas.html">Política</a></li>
+            </Link>
+   
             <li><a href="contact-us.html">Términos y condiciones</a></li>
             <li><a href="faqs.html">Preguntas frecuentes</a></li>
             <li><a href="about-us.html">Blog</a></li>
@@ -51,7 +55,10 @@ export function Footer(){
           <ul className="ps-list--link">
             <li><a href="shopping-car.html">Pagar</a></li>
             <li><a href="my-account_my-sales.html">Mi cuenta</a></li>
+            <Link to="/listaTiendas">
             <li><a href="store-list.html">Tienda</a></li>
+            </Link>
+     \
             <li><a href="index.html">Publicidad</a></li>
           </ul>
         </aside>

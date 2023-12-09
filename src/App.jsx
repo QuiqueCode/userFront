@@ -7,6 +7,8 @@ import {
   Route,
 } from "react-router-dom";
 import { Footer } from './components/Footer/FooterD'
+import { ListaTienda } from './components/ListaDeTiendas/ListaTienda';
+import PoliticasUsuarios from './components/PoliticasUsuarios/PoliticasUsuarios';
 
 function App() {
   return (
@@ -16,14 +18,13 @@ function App() {
           <Header />
           <Routes>
            
+
+          <Route path='/listaTiendas' element={<ListaTienda></ListaTienda>}/>
+          <Route path='/politicas' element={<PoliticasUsuarios></PoliticasUsuarios>}/>
           </Routes>
           
         </div>
         <Footer/>
-        <Routes>
-
-          
-        </Routes>
       </>
     </Router>
   )
