@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import { ListaTienda } from './components/ListaDeTiendas/ListaTienda'
+import PoliticasUsuarios from './components/PoliticasUsuarios/PoliticasUsuarios'
 
 
 function App() {
@@ -8,7 +9,6 @@ function App() {
 
   return (
     <>
-
     </>
   )
 }
