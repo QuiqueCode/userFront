@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import { ListaTienda } from './components/ListaDeTiendas/ListaTienda'
 import PoliticasUsuarios from './components/PoliticasUsuarios/PoliticasUsuarios'
+import { Footer } from './components/Footer/FooterD'
 
 
 function App() {
@@ -9,6 +10,8 @@ function App() {
 
   return (
     <>
+    <PoliticasUsuarios></PoliticasUsuarios>
+    <Footer></Footer>
     </>
   )
 }

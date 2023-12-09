@@ -5,15 +5,8 @@ const PoliticasUsuarios = () => {
 
     return (
         <>
-            <head>
-                <meta charset="UTF-8"></meta>
-                <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-                <title>Políticas de TicoMarket</title>
-            </head>
-
-            <body>
-
-                <h1 id="titulo">TicoMarket - Políticas de la tienda</h1>
+         <div id="politicasBody"> 
+         <h1 id="titulo">TicoMarket - Políticas de la tienda</h1>
 
                 <div id="contenido">
                     <p>Bienvenido a TicoMarket, una marketplace que conecta a compradores y vendedores de Costa Rica.</p>
@@ -64,7 +57,10 @@ const PoliticasUsuarios = () => {
 
                 <p>Gracias por usar TicoMarket.</p>
 
-            </body>
+
+         </div>
+       
+         
         </>
     );
 };
