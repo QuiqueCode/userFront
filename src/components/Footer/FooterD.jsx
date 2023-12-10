@@ -43,7 +43,9 @@ export function Footer(){
    
             <li><a href="contact-us.html">Términos y condiciones</a></li>
             <li><a href="faqs.html">Preguntas frecuentes</a></li>
-            <li><a href="about-us.html">Blog</a></li>
+            <Link to="/about">
+              About
+            </Link>
             <li><a href="/SerVendedor">Guías del comprador</a></li>
           </ul>
         </aside>

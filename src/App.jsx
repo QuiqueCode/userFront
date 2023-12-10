@@ -12,7 +12,7 @@ import PoliticasUsuarios from './components/PoliticasUsuarios/PoliticasUsuarios'
 import SerVendedor from './components/Become-vendor/become-vendor';
 import CarritoCompras from './components/CarritoCompras/CarritoCompras';
 import Checkout from './components/Checkout/Checkout';
-import { Products } from './components/Body/Products/Products';
+import About from './components/Blog/About';
 
 function App() {
   return (
@@ -28,10 +28,11 @@ function App() {
           <Route path='/serVendedor' element={<SerVendedor></SerVendedor>}/>
           <Route path='/carrito' element={<CarritoCompras></CarritoCompras>}/>
           <Route path='/pago' element={<Checkout></Checkout>}/>
+          <Route path='/about' element={<About/>} />
           </Routes>
           
         </div>
-        
+
         <Footer/>
         
       </>
