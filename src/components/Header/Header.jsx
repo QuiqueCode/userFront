@@ -254,8 +254,8 @@ const Header = () => {
                 <div className="ps-cart__footer">
                   <h3>Subtotal:<strong>$59.99</strong></h3>
                   <figure>
-                    <a className="ps-btn" href="shopping-cart.html">Ver Carrito</a>
-                    <a className="ps-btn" href="checkout.html">Pagar</a>
+                    <a className="ps-btn" href="/carrito">Ver Carrito</a>
+                    <a className="ps-btn" href="/pago">Pagar</a>
                   </figure>
                 </div>
               </div>
@@ -536,8 +536,8 @@ const Header = () => {
               <div className="ps-cart__footer">
                 <h3>Subtotal:<strong>$59.99</strong></h3>
                 <figure>
-                  <a className="ps-btn" href="shopping-cart.html">Ver Carrito</a>
-                  <a className="ps-btn" href="checkout.html">Pagar</a>
+                  <a className="ps-btn" href="/carrito">Ver Carrito</a>
+                  <a className="ps-btn" href="/pago">Pagar</a>
                 </figure>
               </div>
             </div>

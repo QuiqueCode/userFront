@@ -44,7 +44,7 @@ export function Footer(){
             <li><a href="contact-us.html">Términos y condiciones</a></li>
             <li><a href="faqs.html">Preguntas frecuentes</a></li>
             <li><a href="about-us.html">Blog</a></li>
-            <li><a href="become-vendor.html">Guías del comprador</a></li>
+            <li><a href="/SerVendedor">Guías del comprador</a></li>
           </ul>
         </aside>
       </div>
@@ -53,7 +53,7 @@ export function Footer(){
         <aside className="widget widget_footer">
           <h4 className="widget-title">Negocios y Servicios</h4>
           <ul className="ps-list--link">
-            <li><a href="shopping-car.html">Pagar</a></li>
+            <li><a href="/pago">Pagar</a></li>
             <li><a href="my-account_my-sales.html">Mi cuenta</a></li>
             <Link to="/listaTiendas">
             <li><a href="store-list.html">Tienda</a></li>
