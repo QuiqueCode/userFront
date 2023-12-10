@@ -1,5 +1,7 @@
 import React from "react";
 import "./linearIcons.css";
+import { FaFacebookSquare, FaInstagramSquare, FaYoutubeSquare   } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
 
 const Header = () => {
   return (
@@ -45,22 +47,22 @@ const Header = () => {
               <ul className="d-flex justify-content-center">
                 <li>
                   <a href="#" target="_blank">
-                    <i className="fab fa-facebook-f mr-4" />
+                  <FaFacebookSquare />
                   </a>
                 </li>
                 <li>
                   <a href="#" target="_blank">
-                    <i className="fab fa-instagram mr-4" />
+                  <FaInstagramSquare />
                   </a>
                 </li>
                 <li>
                   <a href="#" target="_blank">
-                    <i className="fab fa-twitter mr-4" />
+                  <FaSquareXTwitter />
                   </a>
                 </li>
                 <li>
                   <a href="#" target="_blank">
-                    <i className="fab fa-youtube mr-4" />
+                  <FaYoutubeSquare  />
                   </a>
                 </li>
               </ul>
@@ -407,22 +409,22 @@ const Header = () => {
             <ul className="d-flex justify-content-center">
               <li>
                 <a href="#" target="_blank">
-                  <i className="fab fa-facebook-f mr-4" />
+                <FaFacebookSquare />
                 </a>
               </li>
               <li>
                 <a href="#" target="_blank">
-                  <i className="fab fa-instagram mr-4" />
+                <FaInstagramSquare />
                 </a>
               </li>
               <li>
                 <a href="#" target="_blank">
-                  <i className="fab fa-twitter mr-4" />
+                  <FaSquareXTwitter/>
                 </a>
               </li>
               <li>
                 <a href="#" target="_blank">
-                  <i className="fab fa-youtube mr-4" />
+                <FaYoutubeSquare  />
                 </a>
               </li>
             </ul>

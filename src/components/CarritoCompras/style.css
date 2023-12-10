@@ -18035,3 +18035,127 @@ ul.timeline > li.process:before {
     height: auto; /* Ajusta la altura automáticamente */
   }
 }
+
+.header--standard .header__top {
+	background-color: #000f63;
+  }
+
+  .header--market-place-4 .header__extra span {
+    background-color: #000;
+  }
+  
+  .header--market-place-4 .header__extra span i {
+    color: #ffffff;
+  }
+  
+  .header--market-place-4 .header__top {
+    background-color: #000f63;
+    color: #fff;
+  }
+  
+  .header--market-place-4 .header__content {
+    background: linear-gradient(45deg, #b7bfe9, #e9b7bc, #a80606);
+  }
+  
+  .header--market-place-4
+    .header__content
+    .menu--product-categories
+    .menu__toggle
+    span {
+    display: none;
+  }
+  
+  .header--market-place-4 .header__content-center .ps-form--quick-search button {
+    background-color: #000f63;
+    color: #fff;
+  }
+  
+  @media (max-width: 1680px) {
+    .ps-banner--market-4 h4 {
+      margin-bottom: 10px;
+    }
+    .ps-banner--market-4 h3 {
+      font-size: 40px;
+      line-height: 1.2em;
+    }
+  }
+  
+  @media (max-width: 1366px) {
+    .ps-banner--market-4 h4 {
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+    .ps-banner--market-4 h3 {
+      font-size: 40px;
+    }
+    .ps-banner--market-4 h3 br {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 1199px) {
+    .ps-banner--market-4 {
+      min-height: 400px;
+    }
+    .ps-banner--market-4 img {
+      display: none;
+      visibility: hidden;
+      opacity: 0;
+    }
+    .ps-banner--market-4 .ps-banner__content {
+      padding: 0 30px;
+    }
+  }
+  
+  @media (max-width: 479px) {
+    .ps-banner--market-4 h3 {
+      font-size: 24px;
+    }
+    .ps-banner--market-4 p {
+      font-size: 12px;
+    }
+  }
+  
+  #homepage-6 .ps-home-banner .owl-slider .owl-nav {
+    left: 50%;
+    max-width: 1200px;
+    margin: 0 auto;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+  #homepage-6 .ps-home-banner .owl-slider .owl-nav > * {
+    width: 48px;
+    height: 48px;
+  }
+  
+  #homepage-6 .ps-site-features {
+    padding: 50px 0;
+  }
+  
+  @media (max-width: 767px) {
+    #homepage-6 .ps-site-features {
+      padding: 30px 0;
+    }
+  }
+  
+  #homepage-6 .ps-top-categories {
+    padding-bottom: 30px;
+  }
+  
+  @media (min-width: 1680px) {
+    #homepage-6 .ps-top-categories .row .col-xl-2 {
+      max-width: calc(100% / 6);
+    }
+  }
+  
+  #homepage-6 .ps-deal-hot {
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+  
+  @media (max-width: 767px) {
+    #homepage-6 .ps-promotions .ps-collection {
+      margin-bottom: 30px;
+    }
+  }
