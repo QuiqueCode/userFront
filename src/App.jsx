@@ -13,6 +13,7 @@ import SerVendedor from './components/Become-vendor/become-vendor';
 import CarritoCompras from './components/CarritoCompras/CarritoCompras';
 import Checkout from './components/Checkout/Checkout';
 import About from './components/Blog/About';
+import Categorias from './components/Categorias/Categorias';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path='/carrito' element={<CarritoCompras></CarritoCompras>}/>
           <Route path='/pago' element={<Checkout></Checkout>}/>
           <Route path='/about' element={<About/>} />
+          <Route path='/categorias' element={<Categorias/>} />
           </Routes>
           
         </div>
