@@ -1,9 +1,277 @@
 import React from "react";
+import { Container, Card, Button, Row, Col, Carousel } from "react-bootstrap";
 
 const Categorias = () => {
   return (
     <>
+      <Carousel>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src="src/img/slider/horizontal/4.jpg"
+            alt="Primer slide"
+            style={{ height: "500px", objectFit: "cover" }}
+          />
+          <Carousel.Caption>
+            <h3>Los Mejores Artículos en Venta</h3>
+            <p>Aprovecha nuestras ofertas exclusivas. ¡No te lo pierdas!</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src="src/img/slider/horizontal/3.jpg"
+            alt="Segundo slide"
+            style={{ height: "500px", objectFit: "cover" }}
+          />
+          <Carousel.Caption>
+            <h3>Los Mejores Artículos en Venta</h3>
+            <p>Descubre nuestra última colección de productos.</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+      </Carousel>
+      <Container className="mt-4">
+        <h2>Productos de Tecnología</h2>
+        <Row>
+          <Col md={4} className="mb-4">
+            <Card>
+              <Card.Img
+                variant="top"
+                src="assets/img/tecnologia/1.jpg"
+              />
+              <Card.Body>
+                <Card.Title>Sofá largo</Card.Title>
+                <Card.Text>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, tenetur! Eos architecto explicabo, nihil quo similique quaerat sint vero dignissimos? Pariatur culpa praesentium voluptas omnis tenetur, adipisci dolorem quaerat fuga.
+                </Card.Text>
+                <Button variant="dark">Ver Detalles</Button>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col md={4} className="mb-4">
+            <Card>
+              <Card.Img variant="top" src="assets/img/tecnologia/2.jpg" />
+              <Card.Body>
+                <Card.Title>Sofá largo</Card.Title>
+                <Card.Text>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, tenetur! Eos architecto explicabo, nihil quo similique quaerat sint vero dignissimos? Pariatur culpa praesentium voluptas omnis tenetur, adipisci dolorem quaerat fuga.
+                </Card.Text>
+                <Button variant="dark">Ver Detalles</Button>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col md={4} className="mb-4">
+            <Card>
+              <Card.Img variant="top" src="assets/img/tecnologia/3.jpg" />
+              <Card.Body>
+                <Card.Title>Sofá largo</Card.Title>
+                <Card.Text>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, tenetur! Eos architecto explicabo, nihil quo similique quaerat sint vero dignissimos? Pariatur culpa praesentium voluptas omnis tenetur, adipisci dolorem quaerat fuga.
+                </Card.Text>
+                <Button variant="dark">Ver Detalles</Button>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col md={4} className="mb-4">
+            <Card>
+              <Card.Img variant="top" src="assets/img/tecnologia/4.jpg" />
+              <Card.Body>
+                <Card.Title>Sofá largo</Card.Title>
+                <Card.Text>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, tenetur! Eos architecto explicabo, nihil quo similique quaerat sint vero dignissimos? Pariatur culpa praesentium voluptas omnis tenetur, adipisci dolorem quaerat fuga.
+                </Card.Text>
+                <Button variant="dark">Ver Detalles</Button>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col md={4} className="mb-4">
+            <Card>
+              <Card.Img variant="top" src="assets/img/tecnologia/5.jpg" />
+              <Card.Body>
+                <Card.Title>Sofá largo</Card.Title>
+                <Card.Text>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, tenetur! Eos architecto explicabo, nihil quo similique quaerat sint vero dignissimos? Pariatur culpa praesentium voluptas omnis tenetur, adipisci dolorem quaerat fuga.
+                </Card.Text>
+                <Button variant="dark">Ver Detalles</Button>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col md={4} className="mb-4">
+            <Card>
+              <Card.Img variant="top" src="assets/img/tecnologia/6.jpg" />
+              <Card.Body>
+                <Card.Title>Sofá largo</Card.Title>
+                <Card.Text>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, tenetur! Eos architecto explicabo, nihil quo similique quaerat sint vero dignissimos? Pariatur culpa praesentium voluptas omnis tenetur, adipisci dolorem quaerat fuga.
+                </Card.Text>
+                <Button variant="dark">Ver Detalles</Button>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+      </Container>
+      <Container className="mt-4">
+        <h2>Productos de Ropa</h2>
+        <Row>
+          <Col md={4} className="mb-4">
+            <Card>
+              <Card.Img
+                variant="top"
+                src="assets/img/clothing/1.jpg"
+              />
+              <Card.Body>
+                <Card.Title>Sofá largo</Card.Title>
+                <Card.Text>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque minima ipsum expedita sed, eveniet accusantium corporis alias, mollitia deleniti voluptatibus, velit illum officia. Id in odit ullam autem est sed!
+                </Card.Text>
+                <Button variant="dark">Ver Detalles</Button>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col md={4} className="mb-4">
+            <Card>
+              <Card.Img variant="top" src="assets/img/clothing/2.jpg" />
+              <Card.Body>
+                <Card.Title>Sofá largo</Card.Title>
+                <Card.Text>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum sunt dolorem culpa reprehenderit, et numquam eum illo ad magni delectus assumenda incidunt libero inventore ullam iste blanditiis dicta reiciendis quam.
+                </Card.Text>
+                <Button variant="dark">Ver Detalles</Button>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col md={4} className="mb-4">
+            <Card>
+              <Card.Img variant="top" src="assets/img/clothing/3.jpg" />
+              <Card.Body>
+                <Card.Title>Sofá largo</Card.Title>
+                <Card.Text>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis eveniet magnam nostrum ipsum quos itaque earum vitae amet officia, ex magni quas voluptate harum placeat possimus dolorem labore. Aliquam, asperiores!
+                </Card.Text>
+                <Button variant="dark">Ver Detalles</Button>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col md={4} className="mb-4">
+            <Card>
+              <Card.Img variant="top" src="assets/img/clothing/4.jpg" />
+              <Card.Body>
+                <Card.Title>Sofá largo</Card.Title>
+                <Card.Text>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima possimus totam excepturi adipisci vero obcaecati hic tempore consequatur nulla recusandae eius consectetur, veniam facilis sapiente dolores cumque ipsa odit odio.
+                </Card.Text>
+                <Button variant="dark">Ver Detalles</Button>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col md={4} className="mb-4">
+            <Card>
+              <Card.Img variant="top" src="assets/img/clothing/5.jpg" />
+              <Card.Body>
+                <Card.Title>Sofá largo</Card.Title>
+                <Card.Text>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis consequatur officiis, repudiandae maxime eius sapiente? Nostrum optio eaque sit possimus, minima facere officia error iure molestiae esse exercitationem enim delectus?
+                </Card.Text>
+                <Button variant="dark">Ver Detalles</Button>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col md={4} className="mb-4">
+            <Card>
+              <Card.Img variant="top" src="assets/img/clothing/6.jpg" />
+              <Card.Body>
+                <Card.Title>Sofá largo</Card.Title>
+                <Card.Text>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla modi a quod fugit! Enim ipsam at ratione cum maxime debitis assumenda possimus! Aliquam, earum facere porro quae itaque recusandae ad.
+                </Card.Text>
+                <Button variant="dark">Ver Detalles</Button>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+      </Container>
+      <Container className="mt-4">
+        <h2>Productos de Casa</h2>
+        <Row>
+          <Col md={4} className="mb-4">
+            <Card>
+              <Card.Img
+                variant="top"
+                src="assets/img/home/1.jpg"
+              />
+              <Card.Body>
+                <Card.Title>Sofá largo</Card.Title>
+                <Card.Text>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium iusto vero blanditiis. Deserunt, eligendi iure facere praesentium, rerum qui quasi cum, voluptate nemo fuga assumenda doloremque rem atque esse suscipit.
+                </Card.Text>
+                <Button variant="dark">Ver Detalles</Button>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col md={4} className="mb-4">
+            <Card>
+              <Card.Img variant="top" src="assets/img/home/2.jpg" />
+              <Card.Body>
+                <Card.Title>Sofá largo</Card.Title>
+                <Card.Text>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas quia nihil explicabo voluptas, nesciunt fuga nemo iusto, tempore soluta vero harum eligendi ea odit maxime asperiores accusantium quaerat aliquid culpa.
+                </Card.Text>
+                <Button variant="dark">Ver Detalles</Button>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col md={4} className="mb-4">
+            <Card>
+              <Card.Img variant="top" src="assets/img/home/3.jpg" />
+              <Card.Body>
+                <Card.Title>Sofá largo</Card.Title>
+                <Card.Text>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae, neque quia velit enim perspiciatis non blanditiis maxime culpa, dolorem magni accusamus cum corrupti ipsum. Nam corporis odit ullam rerum eius.
+                </Card.Text>
+                <Button variant="dark">Ver Detalles</Button>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col md={4} className="mb-4">
+            <Card>
+              <Card.Img variant="top" src="assets/img/home/4.jpg" />
+              <Card.Body>
+                <Card.Title>Sofá largo</Card.Title>
+                <Card.Text>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, dolores ad excepturi adipisci ipsa voluptatem aspernatur asperiores quasi placeat quia suscipit vitae nulla ea iure perspiciatis illo sint vero nobis?
+                </Card.Text>
+                <Button variant="dark">Ver Detalles</Button>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col md={4} className="mb-4">
+            <Card>
+              <Card.Img variant="top" src="assets/img/home/5.jpg" />
+              <Card.Body>
+                <Card.Title>Sofá largo</Card.Title>
+                <Card.Text>
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam alias qui praesentium eius eum possimus eveniet dolore dignissimos beatae quam quos, ullam exercitationem perferendis dolorum dolor pariatur est accusantium quibusdam?
+                </Card.Text>
+                <Button variant="dark">Ver Detalles</Button>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col md={4} className="mb-4">
+            <Card>
+              <Card.Img variant="top" src="assets/img/home/6.jpg" />
+              <Card.Body>
+                <Card.Title>Sofá largo</Card.Title>
+                <Card.Text>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis excepturi maxime molestiae sapiente ex fuga aperiam et, deleniti nemo eos. Iste adipisci eos praesentium quam, doloribus error! Quibusdam, facere quos?
+                </Card.Text>
+                <Button variant="dark">Ver Detalles</Button>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+      </Container>
       <div>
+
         <div className="container-fuid bg-white my-4">
           <div className="container">
             {/*=====================================
@@ -11,1263 +279,6 @@ Diseño de Categorías
 ======================================*/}
             <div className="ps-layout--shop">
               <section>
-                {/*=====================================
-    Los Mejores Artículos en Venta
-    ======================================*/}
-                <div className="ps-block--shop-features">
-                  <div className="ps-block__header">
-                    <h3>Los Mejores Artículos en Venta</h3>
-                    <div className="ps-block__navigation">
-                      <a className="ps-carousel__prev" href="#recommended1">
-                        <i className="icon-chevron-left" />
-                      </a>
-                      <a className="ps-carousel__next" href="#recommended1">
-                        <i className="icon-chevron-right" />
-                      </a>
-                    </div>
-                  </div>
-                  <div className="ps-block__content">
-                    <div
-                      className="owl-slider"
-                      id="recommended1"
-                      data-owl-auto="true"
-                      data-owl-loop="true"
-                      data-owl-speed={10000}
-                      data-owl-gap={30}
-                      data-owl-nav="false"
-                      data-owl-dots="false"
-                      data-owl-item={6}
-                      data-owl-item-xs={2}
-                      data-owl-item-sm={2}
-                      data-owl-item-md={3}
-                      data-owl-item-lg={4}
-                      data-owl-item-xl={5}
-                      data-owl-duration={1000}
-                      data-owl-mousedrag="on"
-                    >
-                      {/*=====================================
-    							Producto
-    							======================================*/}
-                      <div className="ps-product">
-                        <div className="ps-product__thumbnail">
-                          <a href="product-default.html">
-                            <img src="assets/img/1.jpg" alt />
-                          </a>
-                          <ul className="ps-product__actions">
-                            <li>
-                              <a
-                                href="#"
-                                data-toggle="tooltip"
-                                data-placement="top"
-                                title="Agregar al Carrito"
-                              >
-                                <i className="icon-bag2" />
-                              </a>
-                            </li>
-                            <li>
-                              <a
-                                href="#"
-                                data-toggle="tooltip"
-                                data-placement="top"
-                                title="Vista Rápida"
-                              >
-                                <i className="icon-eye" />
-                              </a>
-                            </li>
-                            <li>
-                              <a
-                                href="#"
-                                data-toggle="tooltip"
-                                data-placement="top"
-                                title="Agregar a Favoritos"
-                              >
-                                <i className="icon-heart" />
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
-                        <div className="ps-product__container">
-                          <a className="ps-product__vendor" href="#">
-                            Tienda Joven
-                          </a>
-                          <div className="ps-product__content">
-                            <a
-                              className="ps-product__title"
-                              href="product-default.html"
-                            >
-                              Camisa de Mezcla de Lino Caro Pane
-                            </a>
-                            <div className="ps-product__rating">
-                              <select
-                                className="ps-rating"
-                                data-read-only="true"
-                              >
-                                <option value={1}>1</option>
-                                <option value={1}>2</option>
-                                <option value={1}>3</option>
-                                <option value={1}>4</option>
-                                <option value={2}>5</option>
-                              </select>
-                              <span>01</span>
-                            </div>
-                            <p className="ps-product__price">$22.99 - $32.99</p>
-                          </div>
-                          <div className="ps-product__content hover">
-                            <a
-                              className="ps-product__title"
-                              href="product-default.html"
-                            >
-                              Camisa de Mezcla de Lino Caro Pane
-                            </a>
-                            <p className="ps-product__price">$22.99 - $32.99</p>
-                          </div>
-                        </div>
-                      </div>
-                      {/* Fin del Producto */}
-                      {/*=====================================
-    							Producto
-    							======================================*/}
-                      <div className="ps-product">
-                        <div className="ps-product__thumbnail">
-                          <a href="product-default.html">
-                            <img src="img/products/shop/best/2.jpg" alt />
-                          </a>
-                          <div className="ps-product__badge">-7%</div>
-                          <ul className="ps-product__actions">
-                            <li>
-                              <a
-                                href="#"
-                                data-toggle="tooltip"
-                                data-placement="top"
-                                title="Agregar al Carrito"
-                              >
-                                <i className="icon-bag2" />
-                              </a>
-                            </li>
-                            <li>
-                              <a
-                                href="#"
-                                data-toggle="tooltip"
-                                data-placement="top"
-                                title="Vista Rápida"
-                              >
-                                <i className="icon-eye" />
-                              </a>
-                            </li>
-                            <li>
-                              <a
-                                href="#"
-                                data-toggle="tooltip"
-                                data-placement="top"
-                                title="Agregar a Favoritos"
-                              >
-                                <i className="icon-heart" />
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
-                        <div className="ps-product__container">
-                          <a className="ps-product__vendor" href="#">
-                            Tienda Joven
-                          </a>
-                          <div className="ps-product__content">
-                            <a
-                              className="ps-product__title"
-                              href="product-default.html"
-                            >
-                              Reloj de Cuero Clásico MVMTH en Negro
-                            </a>
-                            <div className="ps-product__rating">
-                              <select
-                                className="ps-rating"
-                                data-read-only="true"
-                              >
-                                <option value={1}>1</option>
-                                <option value={1}>2</option>
-                                <option value={1}>3</option>
-                                <option value={1}>4</option>
-                                <option value={2}>5</option>
-                              </select>
-                              <span>01</span>
-                            </div>
-                            <p className="ps-product__price sale">
-                              $57.99 <del>$62.99 </del>
-                            </p>
-                          </div>
-                          <div className="ps-product__content hover">
-                            <a
-                              className="ps-product__title"
-                              href="product-default.html"
-                            >
-                              Reloj de Cuero Clásico MVMTH en Negro
-                            </a>
-                            <p className="ps-product__price sale">
-                              $57.99 <del>$62.99 </del>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      {/* Fin del Producto */}
-                      {/*=====================================
-    							Producto
-    							======================================*/}
-                      <div className="ps-product">
-                        <div className="ps-product__thumbnail">
-                          <a href="product-default.html">
-                            <img src="img/products/shop/best/3.jpg" alt />
-                          </a>
-                          <div className="ps-product__badge">-16%</div>
-                          <ul className="ps-product__actions">
-                            <li>
-                              <a
-                                href="#"
-                                data-toggle="tooltip"
-                                data-placement="top"
-                                title="Agregar al Carrito"
-                              >
-                                <i className="icon-bag2" />
-                              </a>
-                            </li>
-                            <li>
-                              <a
-                                href="#"
-                                data-toggle="tooltip"
-                                data-placement="top"
-                                title="Vista Rápida"
-                              >
-                                <i className="icon-eye" />
-                              </a>
-                            </li>
-                            <li>
-                              <a
-                                href="#"
-                                data-toggle="tooltip"
-                                data-placement="top"
-                                title="Agregar a Favoritos"
-                              >
-                                <i className="icon-heart" />
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
-                        <div className="ps-product__container">
-                          <a className="ps-product__vendor" href="#">
-                            Tienda Joven
-                          </a>
-                          <div className="ps-product__content">
-                            <a
-                              className="ps-product__title"
-                              href="product-default.html"
-                            >
-                              Mochila Clásica Militar Unero
-                            </a>
-                            <div className="ps-product__rating">
-                              <select
-                                className="ps-rating"
-                                data-read-only="true"
-                              >
-                                <option value={1}>1</option>
-                                <option value={1}>2</option>
-                                <option value={1}>3</option>
-                                <option value={1}>4</option>
-                                <option value={2}>5</option>
-                              </select>
-                              <span>02</span>
-                            </div>
-                            <p className="ps-product__price sale">
-                              $35.00 <del>$60.00 </del>
-                            </p>
-                          </div>
-                          <div className="ps-product__content hover">
-                            <a
-                              className="ps-product__title"
-                              href="product-default.html"
-                            >
-                              Mochila Clásica Militar Unero
-                            </a>
-                            <p className="ps-product__price sale">
-                              $35.00 <del>$60.00 </del>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      {/* Fin del Producto */}
-                      {/*=====================================
-    							Producto
-    							======================================*/}
-                      <div className="ps-product">
-                        <div className="ps-product__thumbnail">
-                          <a href="product-default.html">
-                            <img src="img/products/shop/best/4.jpg" alt />
-                          </a>
-                          <div className="ps-product__badge">-5%</div>
-                          <ul className="ps-product__actions">
-                            <li>
-                              <a
-                                href="#"
-                                data-toggle="tooltip"
-                                data-placement="top"
-                                title="Agregar al Carrito"
-                              >
-                                <i className="icon-bag2" />
-                              </a>
-                            </li>
-                            <li>
-                              <a
-                                href="#"
-                                data-toggle="tooltip"
-                                data-placement="top"
-                                title="Vista Rápida"
-                              >
-                                <i className="icon-eye" />
-                              </a>
-                            </li>
-                            <li>
-                              <a
-                                href="#"
-                                data-toggle="tooltip"
-                                data-placement="top"
-                                title="Agregar a Favoritos"
-                              >
-                                <i className="icon-heart" />
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
-                        <div className="ps-product__container">
-                          <a className="ps-product__vendor" href="#">
-                            Go Pro
-                          </a>
-                          <div className="ps-product__content">
-                            <a
-                              className="ps-product__title"
-                              href="product-default.html"
-                            >
-                              Audífonos Sound Intone I65 Versión Blanca
-                            </a>
-                            <div className="ps-product__rating">
-                              <select
-                                className="ps-rating"
-                                data-read-only="true"
-                              >
-                                <option value={1}>1</option>
-                                <option value={1}>2</option>
-                                <option value={1}>3</option>
-                                <option value={1}>4</option>
-                                <option value={2}>5</option>
-                              </select>
-                              <span>23</span>
-                            </div>
-                            <p className="ps-product__price sale">
-                              $100.00 <del>$105.00 </del>
-                            </p>
-                          </div>
-                          <div className="ps-product__content hover">
-                            <a
-                              className="ps-product__title"
-                              href="product-default.html"
-                            >
-                              Audífonos Sound Intone I65 Versión Blanca
-                            </a>
-                            <p className="ps-product__price sale">
-                              $100.00 <del>$105.00 </del>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      {/* Fin del Producto */}
-                      {/*=====================================
-                                          Producto
-                                          ======================================*/}
-                      <div className="ps-product">
-                        <div className="ps-product__thumbnail">
-                          <a href="product-default.html">
-                            <img src="img/products/shop/best/5.jpg" alt />
-                          </a>
-                          <ul className="ps-product__actions">
-                            <li>
-                              <a
-                                href="#"
-                                data-toggle="tooltip"
-                                data-placement="top"
-                                title="Agregar al Carrito"
-                              >
-                                <i className="icon-bag2" />
-                              </a>
-                            </li>
-                            <li>
-                              <a
-                                href="#"
-                                data-toggle="tooltip"
-                                data-placement="top"
-                                title="Vista Rápida"
-                              >
-                                <i className="icon-eye" />
-                              </a>
-                            </li>
-                            <li>
-                              <a
-                                href="#"
-                                data-toggle="tooltip"
-                                data-placement="top"
-                                title="Agregar a Favoritos"
-                              >
-                                <i className="icon-heart" />
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
-                        <div className="ps-product__container">
-                          <a className="ps-product__vendor" href="#">
-                            Oficina Global
-                          </a>
-                          <div className="ps-product__content">
-                            <a
-                              className="ps-product__title"
-                              href="product-default.html"
-                            >
-                              Bolsa de Viaje de Cuero Herschel en Color Marrón
-                            </a>
-                            <div className="ps-product__rating">
-                              <select
-                                className="ps-rating"
-                                data-read-only="true"
-                              >
-                                <option value={1}>1</option>
-                                <option value={1}>2</option>
-                                <option value={1}>3</option>
-                                <option value={1}>4</option>
-                                <option value={2}>5</option>
-                              </select>
-                              <span>01</span>
-                            </div>
-                            <p className="ps-product__price">$125.30</p>
-                          </div>
-                          <div className="ps-product__content hover">
-                            <a
-                              className="ps-product__title"
-                              href="product-default.html"
-                            >
-                              Bolsa de Viaje de Cuero Herschel en Color Marrón
-                            </a>
-                            <p className="ps-product__price">$125.30</p>
-                          </div>
-                        </div>
-                      </div>
-                      {/* Fin del Producto */}
-                      {/*=====================================
-    							Producto
-    							======================================*/}
-                      <div className="ps-product">
-                        <div className="ps-product__thumbnail">
-                          <a href="product-default.html">
-                            <img src="img/products/shop/best/6.jpg" alt />
-                          </a>
-                          <div className="ps-product__badge hot">
-                            Más Vendido
-                          </div>
-                          <ul className="ps-product__actions">
-                            <li>
-                              <a
-                                href="#"
-                                data-toggle="tooltip"
-                                data-placement="top"
-                                title="Agregar al Carrito"
-                              >
-                                <i className="icon-bag2" />
-                              </a>
-                            </li>
-                            <li>
-                              <a
-                                href="#"
-                                data-toggle="tooltip"
-                                data-placement="top"
-                                title="Vista Rápida"
-                              >
-                                <i className="icon-eye" />
-                              </a>
-                            </li>
-                            <li>
-                              <a
-                                href="#"
-                                data-toggle="tooltip"
-                                data-placement="top"
-                                title="Agregar a Favoritos"
-                              >
-                                <i className="icon-heart" />
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
-                        <div className="ps-product__container">
-                          <a className="ps-product__vendor" href="#">
-                            Oficina Global
-                          </a>
-                          <div className="ps-product__content">
-                            <a
-                              className="ps-product__title"
-                              href="product-default.html"
-                            >
-                              Controlador Inalámbrico Xbox One Color Negro
-                            </a>
-                            <div className="ps-product__rating">
-                              <select
-                                className="ps-rating"
-                                data-read-only="true"
-                              >
-                                <option value={1}>1</option>
-                                <option value={1}>2</option>
-                                <option value={1}>3</option>
-                                <option value={1}>4</option>
-                                <option value={2}>5</option>
-                              </select>
-                              <span>01</span>
-                            </div>
-                            <p className="ps-product__price sale">
-                              $1025.00 <del>$1422.00 </del>
-                            </p>
-                          </div>
-                          <div className="ps-product__content hover">
-                            <a
-                              className="ps-product__title"
-                              href="product-default.html"
-                            >
-                              Controlador Inalámbrico Xbox One Color Negro
-                            </a>
-                            <p className="ps-product__price sale">
-                              $1025.00 <del>$1422.00 </del>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      {/* Fin del Producto */}
-                      {/*=====================================
-                                          Producto
-                                          ======================================*/}
-                      <div className="ps-product">
-                        <div className="ps-product__thumbnail">
-                          <a href="product-default.html">
-                            <img src="img/products/shop/best/7.jpg" alt />
-                          </a>
-                          <ul className="ps-product__actions">
-                            <li>
-                              <a
-                                href="#"
-                                data-toggle="tooltip"
-                                data-placement="top"
-                                title="Agregar al Carrito"
-                              >
-                                <i className="icon-bag2" />
-                              </a>
-                            </li>
-                            <li>
-                              <a
-                                href="#"
-                                data-toggle="tooltip"
-                                data-placement="top"
-                                title="Vista Rápida"
-                              >
-                                <i className="icon-eye" />
-                              </a>
-                            </li>
-                            <li>
-                              <a
-                                href="#"
-                                data-toggle="tooltip"
-                                data-placement="top"
-                                title="Agregar a Favoritos"
-                              >
-                                <i className="icon-heart" />
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
-                        <div className="ps-product__container">
-                          <a className="ps-product__vendor" href="#">
-                            Tienda de Robert
-                          </a>
-                          <div className="ps-product__content">
-                            <a
-                              className="ps-product__title"
-                              href="product-default.html"
-                            >
-                              Samsung UHD TV 24 pulgadas
-                            </a>
-                            <div className="ps-product__rating">
-                              <select
-                                className="ps-rating"
-                                data-read-only="true"
-                              >
-                                <option value={1}>1</option>
-                                <option value={1}>2</option>
-                                <option value={1}>3</option>
-                                <option value={1}>4</option>
-                                <option value={2}>5</option>
-                              </select>
-                              <span>01</span>
-                            </div>
-                            <p className="ps-product__price">$599.00</p>
-                          </div>
-                          <div className="ps-product__content hover">
-                            <a
-                              className="ps-product__title"
-                              href="product-default.html"
-                            >
-                              Samsung UHD TV 24 pulgadas
-                            </a>
-                            <p className="ps-product__price">$599.00</p>
-                          </div>
-                        </div>
-                      </div>
-                      {/* Fin del Producto */}
-                    </div>
-                  </div>
-                </div>
-                {/* Fin de los Mejores Artículos de Venta */}
-                {/*=====================================
-    				Artículos Recomendados
-    				======================================*/}
-                <div className="ps-block--shop-features">
-                  <div className="ps-block__header">
-                    <h3>Artículos Recomendados</h3>
-                    <div className="ps-block__navigation">
-                      <a className="ps-carousel__prev" href="#recomendados">
-                        <i className="icon-chevron-left" />
-                      </a>
-                      <a className="ps-carousel__next" href="#recomendados">
-                        <i className="icon-chevron-right" />
-                      </a>
-                    </div>
-                  </div>
-                  <div className="ps-block__content">
-                    <div
-                      className="owl-slider"
-                      id="recomendados"
-                      data-owl-auto="true"
-                      data-owl-loop="true"
-                      data-owl-speed={10000}
-                      data-owl-gap={30}
-                      data-owl-nav="false"
-                      data-owl-dots="false"
-                      data-owl-item={6}
-                      data-owl-item-xs={2}
-                      data-owl-item-sm={2}
-                      data-owl-item-md={3}
-                      data-owl-item-lg={4}
-                      data-owl-item-xl={5}
-                      data-owl-duration={1000}
-                      data-owl-mousedrag="on"
-                    >
-                      {/*=====================================
-                                    Producto
-                                    ======================================*/}
-                      <div className="ps-product">
-                        <div className="ps-product__thumbnail">
-                          <a href="product-default.html">
-                            <img
-                              src="assets/img/1r.jpg"
-                              alt
-                            />
-                          </a>
-                          <div className="ps-product__badge">-37%</div>
-                          <ul className="ps-product__actions">
-                            <li>
-                              <a
-                                href="#"
-                                data-toggle="tooltip"
-                                data-placement="top"
-                                title="Agregar al Carrito"
-                              >
-                                <i className="icon-bag2" />
-                              </a>
-                            </li>
-                            <li>
-                              <a
-                                href="#"
-                                data-toggle="tooltip"
-                                data-placement="top"
-                                title="Vista Rápida"
-                              >
-                                <i className="icon-eye" />
-                              </a>
-                            </li>
-                            <li>
-                              <a
-                                href="#"
-                                data-toggle="tooltip"
-                                data-placement="top"
-                                title="Agregar a Favoritos"
-                              >
-                                <i className="icon-heart" />
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
-                        <div className="ps-product__container">
-                          <a className="ps-product__vendor" href="#">
-                            Tienda Joven
-                          </a>
-                          <div className="ps-product__content">
-                            <a
-                              className="ps-product__title"
-                              href="product-default.html"
-                            >
-                              Labial Ciate Palemore Color Rojo Audaz
-                            </a>
-                            <div className="ps-product__rating">
-                              <select
-                                className="ps-rating"
-                                data-read-only="true"
-                              >
-                                <option value={1}>1</option>
-                                <option value={1}>2</option>
-                                <option value={1}>3</option>
-                                <option value={1}>4</option>
-                                <option value={2}>5</option>
-                              </select>
-                              <span>01</span>
-                            </div>
-                            <p className="ps-product__price sale">
-                              $42.99 <del>$60.00 </del>
-                            </p>
-                          </div>
-                          <div className="ps-product__content hover">
-                            <a
-                              className="ps-product__title"
-                              href="product-default.html"
-                            >
-                              Labial Ciate Palemore Color Rojo Audaz
-                            </a>
-                            <p className="ps-product__price sale">
-                              $42.99 <del>$60.00 </del>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      {/* Fin del Producto */}
-                      {/*=====================================
-    							Producto
-    							======================================*/}
-                      <div className="ps-product">
-                        <div className="ps-product__thumbnail">
-                          <a href="product-default.html">
-                            <img
-                              src="img/products/shop/recommended/2.jpg"
-                              alt
-                            />
-                          </a>
-                          <div className="ps-product__badge">-37%</div>
-                          <ul className="ps-product__actions">
-                            <li>
-                              <a
-                                href="#"
-                                data-toggle="tooltip"
-                                data-placement="top"
-                                title="Agregar al Carrito"
-                              >
-                                <i className="icon-bag2" />
-                              </a>
-                            </li>
-                            <li>
-                              <a
-                                href="#"
-                                data-toggle="tooltip"
-                                data-placement="top"
-                                title="Vista Rápida"
-                              >
-                                <i className="icon-eye" />
-                              </a>
-                            </li>
-                            <li>
-                              <a
-                                href="#"
-                                data-toggle="tooltip"
-                                data-placement="top"
-                                title="Agregar a Favoritos"
-                              >
-                                <i className="icon-heart" />
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
-                        <div className="ps-product__container">
-                          <a className="ps-product__vendor" href="#">
-                            Tienda de Robert
-                          </a>
-                          <div className="ps-product__content">
-                            <a
-                              className="ps-product__title"
-                              href="product-default.html"
-                            >
-                              Set de 30 Piezas de Mascarillas Naturales
-                              StartSkin de Corea
-                            </a>
-                            <div className="ps-product__rating">
-                              <select
-                                className="ps-rating"
-                                data-read-only="true"
-                              >
-                                <option value={1}>1</option>
-                                <option value={1}>2</option>
-                                <option value={1}>3</option>
-                                <option value={1}>4</option>
-                                <option value={2}>5</option>
-                              </select>
-                              <span>01</span>
-                            </div>
-                            <p className="ps-product__price sale">
-                              $32.99 <del>$60.00 </del>
-                            </p>
-                          </div>
-                          <div className="ps-product__content hover">
-                            <a
-                              className="ps-product__title"
-                              href="product-default.html"
-                            >
-                              Set de 30 Piezas de Mascarillas Naturales
-                              StartSkin de Corea
-                            </a>
-                            <p className="ps-product__price sale">
-                              $32.99 <del>$60.00 </del>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      {/* Fin del Producto */}
-                      {/*=====================================
-                                          Producto
-                                          ======================================*/}
-                      <div className="ps-product">
-                        <div className="ps-product__thumbnail">
-                          <a href="product-default.html">
-                            <img
-                              src="img/products/shop/recommended/3.jpg"
-                              alt
-                            />
-                          </a>
-                          <div className="ps-product__badge">-25%</div>
-                          <ul className="ps-product__actions">
-                            <li>
-                              <a
-                                href="#"
-                                data-toggle="tooltip"
-                                data-placement="top"
-                                title="Agregar al Carrito"
-                              >
-                                <i className="icon-bag2" />
-                              </a>
-                            </li>
-                            <li>
-                              <a
-                                href="#"
-                                data-toggle="tooltip"
-                                data-placement="top"
-                                title="Vista Rápida"
-                              >
-                                <i className="icon-eye" />
-                              </a>
-                            </li>
-                            <li>
-                              <a
-                                href="#"
-                                data-toggle="tooltip"
-                                data-placement="top"
-                                title="Agregar a Favoritos"
-                              >
-                                <i className="icon-heart" />
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
-                        <div className="ps-product__container">
-                          <a className="ps-product__vendor" href="#">
-                            Go Pro
-                          </a>
-                          <div className="ps-product__content">
-                            <a
-                              className="ps-product__title"
-                              href="product-default.html"
-                            >
-                              Kit de Cuidado para el Cabello Baxter para Hombres
-                              con Barba
-                            </a>
-                            <div className="ps-product__rating">
-                              <select
-                                className="ps-rating"
-                                data-read-only="true"
-                              >
-                                <option value={1}>1</option>
-                                <option value={1}>2</option>
-                                <option value={1}>3</option>
-                                <option value={1}>4</option>
-                                <option value={2}>5</option>
-                              </select>
-                              <span>02</span>
-                            </div>
-                            <p className="ps-product__price sale">
-                              $93.00 <del>$60.00 </del>
-                            </p>
-                          </div>
-                          <div className="ps-product__content hover">
-                            <a
-                              className="ps-product__title"
-                              href="product-default.html"
-                            >
-                              Kit de Cuidado para el Cabello Baxter para Hombres
-                              con Barba
-                            </a>
-                            <p className="ps-product__price sale">
-                              $93.00 <del>$60.00 </del>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      {/* Fin del Producto */}
-                      {/*=====================================
-    							Producto
-    							======================================*/}
-                      <div className="ps-product">
-                        <div className="ps-product__thumbnail">
-                          <a href="product-default.html">
-                            <img
-                              src="img/products/shop/recommended/4.jpg"
-                              alt
-                            />
-                          </a>
-                          <div className="ps-product__badge">-46%</div>
-                          <ul className="ps-product__actions">
-                            <li>
-                              <a
-                                href="#"
-                                data-toggle="tooltip"
-                                data-placement="top"
-                                title="Agregar al Carrito"
-                              >
-                                <i className="icon-bag2" />
-                              </a>
-                            </li>
-                            <li>
-                              <a
-                                href="#"
-                                data-toggle="tooltip"
-                                data-placement="top"
-                                title="Vista Rápida"
-                              >
-                                <i className="icon-eye" />
-                              </a>
-                            </li>
-                            <li>
-                              <a
-                                href="#"
-                                data-toggle="tooltip"
-                                data-placement="top"
-                                title="Agregar a Favoritos"
-                              >
-                                <i className="icon-heart" />
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
-                        <div className="ps-product__container">
-                          <a className="ps-product__vendor" href="#">
-                            Go Pro
-                          </a>
-                          <div className="ps-product__content">
-                            <a
-                              className="ps-product__title"
-                              href="product-default.html"
-                            >
-                              Funda de Almohadón con Estampado de Letras de
-                              Algodón
-                            </a>
-                            <div className="ps-product__rating">
-                              <select
-                                className="ps-rating"
-                                data-read-only="true"
-                              >
-                                <option value={1}>1</option>
-                                <option value={1}>2</option>
-                                <option value={1}>3</option>
-                                <option value={1}>4</option>
-                                <option value={2}>5</option>
-                              </select>
-                              <span>01</span>
-                            </div>
-                            <p className="ps-product__price sale">
-                              $13.00 <del>$20.00 </del>
-                            </p>
-                          </div>
-                          <div className="ps-product__content hover">
-                            <a
-                              className="ps-product__title"
-                              href="product-default.html"
-                            >
-                              Funda de Almohadón con Estampado de Letras de
-                              Algodón
-                            </a>
-                            <p className="ps-product__price sale">
-                              $13.00 <del>$20.00 </del>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="ps-product">
-                        <div className="ps-product__thumbnail">
-                          <a href="product-default.html">
-                            <img
-                              src="img/products/shop/recommended/5.jpg"
-                              alt
-                            />
-                          </a>
-                          <div className="ps-product__badge">-46%</div>
-                          <ul className="ps-product__actions">
-                            <li>
-                              <a
-                                href="#"
-                                data-toggle="tooltip"
-                                data-placement="top"
-                                title="Agregar al Carrito"
-                              >
-                                <i className="icon-bag2" />
-                              </a>
-                            </li>
-                            <li>
-                              <a
-                                href="#"
-                                data-toggle="tooltip"
-                                data-placement="top"
-                                title="Vista Rápida"
-                              >
-                                <i className="icon-eye" />
-                              </a>
-                            </li>
-                            <li>
-                              <a
-                                href="#"
-                                data-toggle="tooltip"
-                                data-placement="top"
-                                title="Agregar a Favoritos"
-                              >
-                                <i className="icon-heart" />
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
-                        <div className="ps-product__container">
-                          <a className="ps-product__vendor" href="#">
-                            Young Shop
-                          </a>
-                          <div className="ps-product__content">
-                            <a
-                              className="ps-product__title"
-                              href="product-default.html"
-                            >
-                              Cámara de Seguridad Amcrest en Color Blanco
-                            </a>
-                            <div className="ps-product__rating">
-                              <select
-                                className="ps-rating"
-                                data-read-only="true"
-                              >
-                                <option value={1}>1</option>
-                                <option value={1}>2</option>
-                                <option value={1}>3</option>
-                                <option value={1}>4</option>
-                                <option value={2}>5</option>
-                              </select>
-                              <span>01</span>
-                            </div>
-                            <p className="ps-product__price sale">
-                              $13.00 <del>$20.00 </del>
-                            </p>
-                          </div>
-                          <div className="ps-product__content hover">
-                            <a
-                              className="ps-product__title"
-                              href="product-default.html"
-                            >
-                              Cámara de Seguridad Amcrest en Color Blanco
-                            </a>
-                            <p className="ps-product__price sale">
-                              $13.00 <del>$20.00 </del>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      {/* Fin del Producto */}
-                      {/*=====================================
-                                          Producto
-                                          ======================================*/}
-                      <div className="ps-product">
-                        <div className="ps-product__thumbnail">
-                          <a href="product-default.html">
-                            <img
-                              src="img/products/shop/recommended/6.jpg"
-                              alt
-                            />
-                          </a>
-                          <div className="ps-product__badge">-28%</div>
-                          <ul className="ps-product__actions">
-                            <li>
-                              <a
-                                href="#"
-                                data-toggle="tooltip"
-                                data-placement="top"
-                                title="Agregar al Carrito"
-                              >
-                                <i className="icon-bag2" />
-                              </a>
-                            </li>
-                            <li>
-                              <a
-                                href="#"
-                                data-toggle="tooltip"
-                                data-placement="top"
-                                title="Vista Rápida"
-                              >
-                                <i className="icon-eye" />
-                              </a>
-                            </li>
-                            <li>
-                              <a
-                                href="#"
-                                data-toggle="tooltip"
-                                data-placement="top"
-                                title="Agregar a Favoritos"
-                              >
-                                <i className="icon-heart" />
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
-                        <div className="ps-product__container">
-                          <a className="ps-product__vendor" href="#">
-                            Young Shop
-                          </a>
-                          <div className="ps-product__content">
-                            <a
-                              className="ps-product__title"
-                              href="product-default.html"
-                            >
-                              Lavadora de Vapor Frontal LG en Color Blanco
-                            </a>
-                            <div className="ps-product__rating">
-                              <select
-                                className="ps-rating"
-                                data-read-only="true"
-                              >
-                                <option value={1}>1</option>
-                                <option value={1}>2</option>
-                                <option value={1}>3</option>
-                                <option value={1}>4</option>
-                                <option value={2}>5</option>
-                              </select>
-                              <span>01</span>
-                            </div>
-                            <p className="ps-product__price sale">
-                              $1025.00 <del>$1422.00 </del>
-                            </p>
-                          </div>
-                          <div className="ps-product__content hover">
-                            <a
-                              className="ps-product__title"
-                              href="product-default.html"
-                            >
-                              Lavadora de Vapor Frontal LG en Color Blanco
-                            </a>
-                            <p className="ps-product__price sale">
-                              $1025.00 <del>$1422.00 </del>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      {/* Fin del Producto */}
-                      {/*=====================================
-    							Producto
-    							======================================*/}
-                      <div className="ps-product">
-                        <div className="ps-product__thumbnail">
-                          <a href="product-default.html">
-                            <img
-                              src="img/products/shop/recommended/7.jpg"
-                              alt
-                            />
-                          </a>
-                          <ul className="ps-product__actions">
-                            <li>
-                              <a
-                                href="#"
-                                data-toggle="tooltip"
-                                data-placement="top"
-                                title="Agregar al Carrito"
-                              >
-                                <i className="icon-bag2" />
-                              </a>
-                            </li>
-                            <li>
-                              <a
-                                href="#"
-                                data-toggle="tooltip"
-                                data-placement="top"
-                                title="Vista Rápida"
-                              >
-                                <i className="icon-eye" />
-                              </a>
-                            </li>
-                            <li>
-                              <a
-                                href="#"
-                                data-toggle="tooltip"
-                                data-placement="top"
-                                title="Agregar a Favoritos"
-                              >
-                                <i className="icon-heart" />
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
-                        <div className="ps-product__container">
-                          <a className="ps-product__vendor" href="#">
-                            Tienda de Robert
-                          </a>
-                          <div className="ps-product__content">
-                            <a
-                              className="ps-product__title"
-                              href="product-default.html"
-                            >
-                              Samsung UHD TV 24 pulgadas
-                            </a>
-                            <div className="ps-product__rating">
-                              <select
-                                className="ps-rating"
-                                data-read-only="true"
-                              >
-                                <option value={1}>1</option>
-                                <option value={1}>2</option>
-                                <option value={1}>3</option>
-                                <option value={1}>4</option>
-                                <option value={2}>5</option>
-                              </select>
-                              <span>01</span>
-                            </div>
-                            <p className="ps-product__price">$599.00</p>
-                          </div>
-                          <div className="ps-product__content hover">
-                            <a
-                              className="ps-product__title"
-                              href="product-default.html"
-                            >
-                              Samsung UHD TV 24 pulgadas
-                            </a>
-                            <p className="ps-product__price">$599.00</p>
-                          </div>
-                        </div>
-                      </div>
-                      {/* Fin del Producto */}
-                    </div>
-                  </div>
-                </div>
-                {/* Fin de Productos Recomendados */}
                 {/*=====================================
                               Productos encontrados
                               ======================================*/}
@@ -1298,11 +309,6 @@ Diseño de Categorías
                               <i className="icon-grid" />
                             </a>
                           </li>
-                          <li>
-                            <a href="#tab-2">
-                              <i className="icon-list4" />
-                            </a>
-                          </li>
                         </ul>
                       </div>
                     </div>
@@ -1324,7 +330,7 @@ Diseño de Categorías
                             <div className="ps-product">
                               <div className="ps-product__thumbnail">
                                 <a href="product-default.html">
-                                  <img src="assets/1.jpg" alt />
+                                  <img src="assets/img/1.jpg" alt />
                                 </a>
                                 <ul className="ps-product__actions">
                                   <li>
@@ -1392,7 +398,7 @@ Diseño de Categorías
                             <div className="ps-product">
                               <div className="ps-product__thumbnail">
                                 <a href="product-default.html">
-                                  <img src="img/products/shop/1.jpg" alt />
+                                  <img src="assets/img/1.jpg" alt />
                                 </a>
                                 <ul className="ps-product__actions">
                                   <li>
@@ -1460,7 +466,7 @@ Diseño de Categorías
                             <div className="ps-product">
                               <div className="ps-product__thumbnail">
                                 <a href="product-default.html">
-                                  <img src="img/products/shop/2.jpg" alt />
+                                  <img src="assets/img/2.jpg" alt />
                                 </a>
                                 <ul className="ps-product__actions">
                                   <li>
@@ -1547,7 +553,7 @@ Diseño de Categorías
                             <div className="ps-product">
                               <div className="ps-product__thumbnail">
                                 <a href="product-default.html">
-                                  <img src="img/products/shop/3.jpg" alt />
+                                  <img src="assets/img/3.jpg" alt />
                                 </a>
                                 <ul className="ps-product__actions">
                                   <li>
@@ -1628,7 +634,7 @@ Diseño de Categorías
                             <div className="ps-product">
                               <div className="ps-product__thumbnail">
                                 <a href="product-default.html">
-                                  <img src="img/products/shop/4.jpg" alt />
+                                  <img src="assets/img/4.jpg" alt />
                                 </a>
                                 <div className="ps-product__badge hot">
                                   ¡Caliente!
@@ -1714,7 +720,7 @@ Diseño de Categorías
                             <div className="ps-product">
                               <div className="ps-product__thumbnail">
                                 <a href="product-default.html">
-                                  <img src="img/products/shop/5.jpg" alt />
+                                  <img src="assets/img/5.jpg" alt />
                                 </a>
                                 <div className="ps-product__badge">-37%</div>
                                 <ul className="ps-product__actions">
@@ -1802,7 +808,7 @@ Diseño de Categorías
                             <div className="ps-product">
                               <div className="ps-product__thumbnail">
                                 <a href="product-default.html">
-                                  <img src="assets/6.jpg" alt />
+                                  <img src="assets/img/6.jpg" alt />
                                 </a>
                                 <div className="ps-product__badge">-5%</div>
                                 <ul className="ps-product__actions">
@@ -1888,7 +894,7 @@ Diseño de Categorías
                             <div className="ps-product">
                               <div className="ps-product__thumbnail">
                                 <a href="product-default.html">
-                                  <img src="img/products/shop/7.jpg" alt />
+                                  <img src="assets/img/7.jpg" alt />
                                 </a>
                                 <div className="ps-product__badge">-16%</div>
                                 <ul className="ps-product__actions">
@@ -1974,7 +980,7 @@ Diseño de Categorías
                             <div className="ps-product">
                               <div className="ps-product__thumbnail">
                                 <a href="product-default.html">
-                                  <img src="img/products/shop/8.jpg" alt />
+                                  <img src="assets/img/8.jpg" alt />
                                 </a>
                                 <div className="ps-product__badge">-16%</div>
                                 <ul className="ps-product__actions">
@@ -2060,7 +1066,7 @@ Diseño de Categorías
                             <div className="ps-product">
                               <div className="ps-product__thumbnail">
                                 <a href="product-default.html">
-                                  <img src="img/products/shop/9.jpg" alt />
+                                  <img src="assets/img/9.jpg" alt />
                                 </a>
                                 <ul className="ps-product__actions">
                                   <li>
@@ -2141,7 +1147,7 @@ Diseño de Categorías
                             <div className="ps-product">
                               <div className="ps-product__thumbnail">
                                 <a href="product-default.html">
-                                  <img src="img/products/shop/10.jpg" alt />
+                                  <img src="assets/img/10.jpg" alt />
                                 </a>
                                 <ul className="ps-product__actions">
                                   <li>
@@ -2228,7 +1234,7 @@ Diseño de Categorías
                             <div className="ps-product">
                               <div className="ps-product__thumbnail">
                                 <a href="product-default.html">
-                                  <img src="img/products/shop/11.jpg" alt />
+                                  <img src="assets/img/11.jpg" alt />
                                 </a>
                                 <ul className="ps-product__actions">
                                   <li>
@@ -2304,903 +1310,6 @@ Diseño de Categorías
                             </div>
                           </div>
                           {/* Fin del Producto */}
-                          <div className="ps-pagination">
-                            <ul className="pagination">
-                              <li className="active">
-                                <a href="#">1</a>
-                              </li>
-                              <li>
-                                <a href="#">2</a>
-                              </li>
-                              <li>
-                                <a href="#">3</a>
-                              </li>
-                              <li>
-                                <a href="#">
-                                  Página Siguiente
-                                  <i className="icon-chevron-right" />
-                                </a>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                        {/* Fin de la Vista en Cuadrícula */}
-                        {/*=====================================
-Vista en Lista
-======================================*/}
-                        <div className="ps-tab" id="tab-2">
-                          <div className="ps-shopping-product">
-                            {/*=====================================
-    Producto
-    ======================================*/}
-                            <div className="ps-product ps-product--wide">
-                              <div className="ps-product__thumbnail">
-                                <a href="product-default.html">
-                                  <img src="img/products/shop/1.jpg" alt />
-                                </a>
-                              </div>
-                              <div className="ps-product__container">
-                                <div className="ps-product__content">
-                                  <a
-                                    className="ps-product__title"
-                                    href="product-default.html"
-                                  >
-                                    Apple iPhone Retina 6s Plus 64GB
-                                  </a>
-                                  <p className="ps-product__vendor">
-                                    Vendido por:
-                                    <a href="#">TIENDA DE ROBERT</a>
-                                  </p>
-                                  <ul className="ps-product__desc">
-                                    <li>
-                                      Altavoz estéreo activo portátil sin
-                                      restricciones
-                                    </li>
-                                    <li>Libre de cables y cuerdas</li>
-                                    <li>20 horas de capacidad portátil</li>
-                                    <li>
-                                      Cable de doble extremo con enchufes
-                                      estéreo de 3.5 mm incluido
-                                    </li>
-                                    <li>
-                                      Tweeters de cúpula de 3/4″: 2X y Woofer de
-                                      4″: 1X
-                                    </li>
-                                  </ul>
-                                </div>
-                                <div className="ps-product__shopping">
-                                  <p className="ps-product__price">$1310.00</p>
-                                  <a className="ps-btn" href="#">
-                                    Agregar al carrito
-                                  </a>
-                                  <ul className="ps-product__actions">
-                                    <li>
-                                      <a href="#">
-                                        <i className="icon-eye" />
-                                        Ver
-                                      </a>
-                                    </li>
-                                    <li>
-                                      <a href="#">
-                                        <i className="icon-heart" /> Lista de
-                                        deseos
-                                      </a>
-                                    </li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div>
-                            {/* Fin del Producto */}
-                            {/*=====================================
-    Producto
-    ======================================*/}
-                            <div className="ps-product ps-product--wide">
-                              <div className="ps-product__thumbnail">
-                                <a href="product-default.html">
-                                  <img src="img/products/shop/1.jpg" alt />
-                                </a>
-                              </div>
-                              <div className="ps-product__container">
-                                <div className="ps-product__content">
-                                  <a
-                                    className="ps-product__title"
-                                    href="product-default.html"
-                                  >
-                                    Apple iPhone Retina 6s Plus 64GB
-                                  </a>
-                                  <p className="ps-product__vendor">
-                                    Vendido por:<a href="#">Tienda Joven</a>
-                                  </p>
-                                  <ul className="ps-product__desc">
-                                    <li>
-                                      Altavoz estéreo activo portátil sin
-                                      restricciones
-                                    </li>
-                                    <li>Libre de cables y cuerdas</li>
-                                    <li>20 horas de capacidad portátil</li>
-                                    <li>
-                                      Cable de doble extremo con enchufes
-                                      estéreo de 3.5 mm incluido
-                                    </li>
-                                    <li>
-                                      Tweeters de cúpula de 3/4″: 2X y Woofer de
-                                      4″: 1X
-                                    </li>
-                                  </ul>
-                                </div>
-                                <div className="ps-product__shopping">
-                                  <p className="ps-product__price">$1150.00</p>
-                                  <a className="ps-btn" href="#">
-                                    Agregar al carrito
-                                  </a>
-                                  <ul className="ps-product__actions">
-                                    <li>
-                                      <a href="#">
-                                        <i className="icon-eye" />
-                                        Ver
-                                      </a>
-                                    </li>
-                                    <li>
-                                      <a href="#">
-                                        <i className="icon-heart" /> Lista de
-                                        deseos
-                                      </a>
-                                    </li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div>
-                            {/* Fin del Producto */}
-                            {/*=====================================
-    Producto
-    ======================================*/}
-                            <div className="ps-product ps-product--wide">
-                              <div className="ps-product__thumbnail">
-                                <a href="product-default.html">
-                                  <img src="img/products/shop/2.jpg" alt />
-                                </a>
-                              </div>
-                              <div className="ps-product__container">
-                                <div className="ps-product__content">
-                                  <a
-                                    className="ps-product__title"
-                                    href="product-default.html"
-                                  >
-                                    Altavoz Inalámbrico Portátil Marshall
-                                    Kilburn
-                                  </a>
-                                  <div className="ps-product__rating">
-                                    <select
-                                      className="ps-rating"
-                                      data-read-only="true"
-                                    >
-                                      <option value={1}>1</option>
-                                      <option value={1}>2</option>
-                                      <option value={1}>3</option>
-                                      <option value={1}>4</option>
-                                      <option value={2}>5</option>
-                                    </select>
-                                    <span>01</span>
-                                  </div>
-                                  <p className="ps-product__vendor">
-                                    Vendido por:<a href="#">Ve Pro</a>
-                                  </p>
-                                  <ul className="ps-product__desc">
-                                    <li>
-                                      Altavoz estéreo activo portátil sin
-                                      restricciones
-                                    </li>
-                                    <li>Libre de cables y cuerdas</li>
-                                    <li>20 horas de capacidad portátil</li>
-                                    <li>
-                                      Cable de doble extremo con enchufes
-                                      estéreo de 3.5 mm incluido
-                                    </li>
-                                    <li>
-                                      Tweeters de cúpula de 3/4″: 2X y Woofer de
-                                      4″: 1X
-                                    </li>
-                                  </ul>
-                                </div>
-                                <div className="ps-product__shopping">
-                                  <p className="ps-product__price">
-                                    $42.99 - $60.00
-                                  </p>
-                                  <a className="ps-btn" href="#">
-                                    Agregar al carrito
-                                  </a>
-                                  <ul className="ps-product__actions">
-                                    <li>
-                                      <a href="#">
-                                        <i className="icon-eye" />
-                                        Ver
-                                      </a>
-                                    </li>
-                                    <li>
-                                      <a href="#">
-                                        <i className="icon-heart" /> Lista de
-                                        deseos
-                                      </a>
-                                    </li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div>
-                            {/* Fin del Producto */}
-                            {/*=====================================
-    Producto
-    ======================================*/}
-                            <div className="ps-product ps-product--wide">
-                              <div className="ps-product__thumbnail">
-                                <a href="product-default.html">
-                                  <img src="img/products/shop/3.jpg" alt />
-                                </a>
-                              </div>
-                              <div className="ps-product__container">
-                                <div className="ps-product__content">
-                                  <a
-                                    className="ps-product__title"
-                                    href="product-default.html"
-                                  >
-                                    Bolso de Cuero Herschel en Color Marrón
-                                  </a>
-                                  <div className="ps-product__rating">
-                                    <select
-                                      className="ps-rating"
-                                      data-read-only="true"
-                                    >
-                                      <option value={1}>1</option>
-                                      <option value={1}>2</option>
-                                      <option value={1}>3</option>
-                                      <option value={1}>4</option>
-                                      <option value={2}>5</option>
-                                    </select>
-                                    <span>01</span>
-                                  </div>
-                                  <p className="ps-product__vendor">
-                                    Vendido por:<a href="#">Ve Pro</a>
-                                  </p>
-                                  <ul className="ps-product__desc">
-                                    <li>
-                                      Altavoz estéreo activo portátil sin
-                                      restricciones
-                                    </li>
-                                    <li>Libre de cables y cuerdas</li>
-                                    <li>20 horas de capacidad portátil</li>
-                                    <li>
-                                      Cable de doble extremo con enchufes
-                                      estéreo de 3.5 mm incluido
-                                    </li>
-                                    <li>
-                                      Tweeters de cúpula de 3/4″: 2X y Woofer de
-                                      4″: 1X
-                                    </li>
-                                  </ul>
-                                </div>
-                                <div className="ps-product__shopping">
-                                  <p className="ps-product__price">$125.30</p>
-                                  <a className="ps-btn" href="#">
-                                    Agregar al carrito
-                                  </a>
-                                  <ul className="ps-product__actions">
-                                    <li>
-                                      <a href="#">
-                                        <i className="icon-eye" />
-                                        Ver
-                                      </a>
-                                    </li>
-                                    <li>
-                                      <a href="#">
-                                        <i className="icon-heart" /> Lista de
-                                        deseos
-                                      </a>
-                                    </li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div>
-                            {/* Fin del Producto */}
-                            {/*=====================================
-Producto
-======================================*/}
-                            <div className="ps-product ps-product--wide">
-                              <div className="ps-product__thumbnail">
-                                <a href="product-default.html">
-                                  <img src="img/products/shop/4.jpg" alt />
-                                </a>
-                              </div>
-                              <div className="ps-product__container">
-                                <div className="ps-product__content">
-                                  <a
-                                    className="ps-product__title"
-                                    href="product-default.html"
-                                  >
-                                    Controlador Inalámbrico Xbox One en Color
-                                    Negro
-                                  </a>
-                                  <div className="ps-product__rating">
-                                    <select
-                                      className="ps-rating"
-                                      data-read-only="true"
-                                    >
-                                      <option value={1}>1</option>
-                                      <option value={1}>2</option>
-                                      <option value={1}>3</option>
-                                      <option value={1}>4</option>
-                                      <option value={2}>5</option>
-                                    </select>
-                                    <span>01</span>
-                                  </div>
-                                  <p className="ps-product__vendor">
-                                    Vendido por:<a href="#">Oficina Global</a>
-                                  </p>
-                                  <ul className="ps-product__desc">
-                                    <li>
-                                      Altavoz estéreo activo portátil sin
-                                      restricciones
-                                    </li>
-                                    <li>Libre de cables y cuerdas</li>
-                                    <li>20 horas de capacidad portátil</li>
-                                    <li>
-                                      Cable de doble extremo con enchufes
-                                      estéreo de 3.5 mm incluido
-                                    </li>
-                                    <li>
-                                      Tweeters de cúpula de 3/4″: 2X y Woofer de
-                                      4″: 1X
-                                    </li>
-                                  </ul>
-                                </div>
-                                <div className="ps-product__shopping">
-                                  <p className="ps-product__price">$55.99</p>
-                                  <a className="ps-btn" href="#">
-                                    Agregar al carrito
-                                  </a>
-                                  <ul className="ps-product__actions">
-                                    <li>
-                                      <a href="#">
-                                        <i className="icon-eye" />
-                                        Ver
-                                      </a>
-                                    </li>
-                                    <li>
-                                      <a href="#">
-                                        <i className="icon-heart" /> Lista de
-                                        deseos
-                                      </a>
-                                    </li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div>
-                            {/* Fin del Producto */}
-                            {/*=====================================
-Producto
-======================================*/}
-                            <div className="ps-product ps-product--wide">
-                              <div className="ps-product__thumbnail">
-                                <a href="product-default.html">
-                                  <img src="img/products/shop/5.jpg" alt />
-                                </a>
-                                <div className="ps-product__badge">-37%</div>
-                              </div>
-                              <div className="ps-product__container">
-                                <div className="ps-product__content">
-                                  <a
-                                    className="ps-product__title"
-                                    href="product-default.html"
-                                  >
-                                    Novela de Salto de Interior Grand Slam
-                                  </a>
-                                  <div className="ps-product__rating">
-                                    <select
-                                      className="ps-rating"
-                                      data-read-only="true"
-                                    >
-                                      <option value={1}>1</option>
-                                      <option value={1}>2</option>
-                                      <option value={1}>3</option>
-                                      <option value={1}>4</option>
-                                      <option value={2}>5</option>
-                                    </select>
-                                    <span>01</span>
-                                  </div>
-                                  <p className="ps-product__vendor">
-                                    Vendido por:<a href="#">Tienda de Robert</a>
-                                  </p>
-                                  <ul className="ps-product__desc">
-                                    <li>
-                                      Altavoz estéreo activo portátil sin
-                                      restricciones
-                                    </li>
-                                    <li>Libre de cables y cuerdas</li>
-                                    <li>20 horas de capacidad portátil</li>
-                                    <li>
-                                      Cable de doble extremo con enchufes
-                                      estéreo de 3.5 mm incluido
-                                    </li>
-                                    <li>
-                                      Tweeters de cúpula de 3/4″: 2X y Woofer de
-                                      4″: 1X
-                                    </li>
-                                  </ul>
-                                </div>
-                                <div className="ps-product__shopping">
-                                  <p className="ps-product__price sale">
-                                    $32.99 <del>$41.00 </del>
-                                  </p>
-                                  <a className="ps-btn" href="#">
-                                    Agregar al carrito
-                                  </a>
-                                  <ul className="ps-product__actions">
-                                    <li>
-                                      <a href="#">
-                                        <i className="icon-eye" />
-                                        Ver
-                                      </a>
-                                    </li>
-                                    <li>
-                                      <a href="#">
-                                        <i className="icon-heart" /> Lista de
-                                        deseos
-                                      </a>
-                                    </li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div>
-                            {/* Fin del Producto */}
-                            {/*=====================================
-Producto
-======================================*/}
-                            <div className="ps-product ps-product--wide">
-                              <div className="ps-product__thumbnail">
-                                <a href="product-default.html">
-                                  <img src="img/products/shop/6.jpg" alt />
-                                </a>
-                                <div className="ps-product__badge">-5%</div>
-                              </div>
-                              <div className="ps-product__container">
-                                <div className="ps-product__content">
-                                  <a
-                                    className="ps-product__title"
-                                    href="product-default.html"
-                                  >
-                                    Auriculares Sound Intone I65 en Color Blanco
-                                  </a>
-                                  <div className="ps-product__rating">
-                                    <select
-                                      className="ps-rating"
-                                      data-read-only="true"
-                                    >
-                                      <option value={1}>1</option>
-                                      <option value={1}>2</option>
-                                      <option value={1}>3</option>
-                                      <option value={1}>4</option>
-                                      <option value={2}>5</option>
-                                    </select>
-                                    <span>01</span>
-                                  </div>
-                                  <p className="ps-product__vendor">
-                                    Vendido por:<a href="#">Tienda Joven</a>
-                                  </p>
-                                  <ul className="ps-product__desc">
-                                    <li>
-                                      Altavoz estéreo activo portátil sin
-                                      restricciones
-                                    </li>
-                                    <li>Libre de cables y cuerdas</li>
-                                    <li>20 horas de capacidad portátil</li>
-                                    <li>
-                                      Cable de doble extremo con enchufes
-                                      estéreo de 3.5 mm incluido
-                                    </li>
-                                    <li>
-                                      Tweeters de cúpula de 3/4″: 2X y Woofer de
-                                      4″: 1X
-                                    </li>
-                                  </ul>
-                                </div>
-                                <div className="ps-product__shopping">
-                                  <p className="ps-product__price sale">
-                                    $100.99 <del>$106.00 </del>
-                                  </p>
-                                  <a className="ps-btn" href="#">
-                                    Agregar al carrito
-                                  </a>
-                                  <ul className="ps-product__actions">
-                                    <li>
-                                      <a href="#">
-                                        <i className="icon-eye" />
-                                        Ver
-                                      </a>
-                                    </li>
-                                    <li>
-                                      <a href="#">
-                                        <i className="icon-heart" /> Lista de
-                                        deseos
-                                      </a>
-                                    </li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div>
-                            {/* Fin del Producto */}
-                            {/*=====================================
-    								Producto
-    								======================================*/}
-                            <div className="ps-product ps-product--wide">
-                              <div className="ps-product__thumbnail">
-                                <a href="product-default.html">
-                                  <img src="img/products/shop/7.jpg" alt />
-                                </a>
-                                <div className="ps-product__badge">-16%</div>
-                              </div>
-                              <div className="ps-product__container">
-                                <div className="ps-product__content">
-                                  <a
-                                    className="ps-product__title"
-                                    href="product-default.html"
-                                  >
-                                    Sofá Largo de Corea en Tela Azul Marino
-                                  </a>
-                                  <div className="ps-product__rating">
-                                    <select
-                                      className="ps-rating"
-                                      data-read-only="true"
-                                    >
-                                      <option value={1}>1</option>
-                                      <option value={1}>2</option>
-                                      <option value={1}>3</option>
-                                      <option value={1}>4</option>
-                                      <option value={2}>5</option>
-                                    </select>
-                                    <span>01</span>
-                                  </div>
-                                  <p className="ps-product__vendor">
-                                    Vendido por:<a href="#">Youngshop</a>
-                                  </p>
-                                  <ul className="ps-product__desc">
-                                    <li>
-                                      Altavoz estéreo activo portátil sin
-                                      restricciones
-                                    </li>
-                                    <li>Libre de cables y cuerdas</li>
-                                    <li>20 horas de capacidad portátil</li>
-                                    <li>
-                                      Cable de doble extremo con enchufes
-                                      estéreo de 3.5 mm incluido
-                                    </li>
-                                    <li>
-                                      Tweeters de cúpula de 3/4″: 2X y Woofer de
-                                      4″: 1X
-                                    </li>
-                                  </ul>
-                                </div>
-                                <div className="ps-product__shopping">
-                                  <p className="ps-product__price sale">
-                                    $567.89 <del>$670.20 </del>
-                                  </p>
-                                  <a className="ps-btn" href="#">
-                                    Agregar al carrito
-                                  </a>
-                                  <ul className="ps-product__actions">
-                                    <li>
-                                      <a href="#">
-                                        <i className="icon-eye" />
-                                        Ver
-                                      </a>
-                                    </li>
-                                    <li>
-                                      <a href="#">
-                                        <i className="icon-heart" /> Lista de
-                                        deseos
-                                      </a>
-                                    </li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div>
-                            {/* Fin del Producto */}
-                            {/*=====================================
-Producto
-======================================*/}
-                            <div className="ps-product ps-product--wide">
-                              <div className="ps-product__thumbnail">
-                                <a href="product-default.html">
-                                  <img src="img/products/shop/8.jpg" alt />
-                                </a>
-                                <div className="ps-product__badge">-16%</div>
-                              </div>
-                              <div className="ps-product__container">
-                                <div className="ps-product__content">
-                                  <a
-                                    className="ps-product__title"
-                                    href="product-default.html"
-                                  >
-                                    Mochila Clásica Militar Unero
-                                  </a>
-                                  <div className="ps-product__rating">
-                                    <select
-                                      className="ps-rating"
-                                      data-read-only="true"
-                                    >
-                                      <option value={1}>1</option>
-                                      <option value={1}>2</option>
-                                      <option value={1}>3</option>
-                                      <option value={1}>4</option>
-                                      <option value={2}>5</option>
-                                    </select>
-                                    <span>02</span>
-                                  </div>
-                                  <p className="ps-product__vendor">
-                                    Vendido por:<a href="#">Tienda Joven</a>
-                                  </p>
-                                  <ul className="ps-product__desc">
-                                    <li>
-                                      Altavoz estéreo activo portátil sin
-                                      restricciones
-                                    </li>
-                                    <li>Libre de cables y cuerdas</li>
-                                    <li>20 horas de capacidad portátil</li>
-                                    <li>
-                                      Cable de doble extremo con enchufes
-                                      estéreo de 3.5 mm incluido
-                                    </li>
-                                    <li>
-                                      Tweeters de cúpula de 3/4″: 2X y Woofer de
-                                      4″: 1X
-                                    </li>
-                                  </ul>
-                                </div>
-                                <div className="ps-product__shopping">
-                                  <p className="ps-product__price sale">
-                                    $35.89 <del>$42.20 </del>
-                                  </p>
-                                  <a className="ps-btn" href="#">
-                                    Agregar al carrito
-                                  </a>
-                                  <ul className="ps-product__actions">
-                                    <li>
-                                      <a href="#">
-                                        <i className="icon-eye" />
-                                        Ver
-                                      </a>
-                                    </li>
-                                    <li>
-                                      <a href="#">
-                                        <i className="icon-heart" /> Lista de
-                                        deseos
-                                      </a>
-                                    </li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div>
-                            {/* Fin del Producto */}
-                            {/*=====================================
-Producto
-======================================*/}
-                            <div className="ps-product ps-product--wide">
-                              <div className="ps-product__thumbnail">
-                                <a href="product-default.html">
-                                  <img src="img/products/shop/9.jpg" alt />
-                                </a>
-                              </div>
-                              <div className="ps-product__container">
-                                <div className="ps-product__content">
-                                  <a
-                                    className="ps-product__title"
-                                    href="product-default.html"
-                                  >
-                                    Gafas de Sol Rayban Redondas en Color Marrón
-                                  </a>
-                                  <div className="ps-product__rating">
-                                    <select
-                                      className="ps-rating"
-                                      data-read-only="true"
-                                    >
-                                      <option value={1}>1</option>
-                                      <option value={1}>2</option>
-                                      <option value={1}>3</option>
-                                      <option value={1}>4</option>
-                                      <option value={2}>5</option>
-                                    </select>
-                                    <span>02</span>
-                                  </div>
-                                  <p className="ps-product__vendor">
-                                    Vendido por:<a href="#">Tienda Joven</a>
-                                  </p>
-                                  <ul className="ps-product__desc">
-                                    <li>
-                                      Altavoz estéreo activo portátil sin
-                                      restricciones
-                                    </li>
-                                    <li>Libre de cables y cuerdas</li>
-                                    <li>20 horas de capacidad portátil</li>
-                                    <li>
-                                      Cable de doble extremo con enchufes
-                                      estéreo de 3.5 mm incluido
-                                    </li>
-                                    <li>
-                                      Tweeters de cúpula de 3/4″: 2X y Woofer de
-                                      4″: 1X
-                                    </li>
-                                  </ul>
-                                </div>
-                                <div className="ps-product__shopping">
-                                  <p className="ps-product__price">$35.89</p>
-                                  <a className="ps-btn" href="#">
-                                    Agregar al carrito
-                                  </a>
-                                  <ul className="ps-product__actions">
-                                    <li>
-                                      <a href="#">
-                                        <i className="icon-eye" />
-                                        Ver
-                                      </a>
-                                    </li>
-                                    <li>
-                                      <a href="#">
-                                        <i className="icon-heart" /> Lista de
-                                        deseos
-                                      </a>
-                                    </li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div>
-                            {/* Fin del Producto */}
-                            {/*=====================================
-    								Producto
-    								======================================*/}
-                            <div className="ps-product ps-product--wide">
-                              <div className="ps-product__thumbnail">
-                                <a href="product-default.html">
-                                  <img src="img/products/shop/10.jpg" alt />
-                                </a>
-                              </div>
-                              <div className="ps-product__container">
-                                <div className="ps-product__content">
-                                  <a
-                                    className="ps-product__title"
-                                    href="product-default.html"
-                                  >
-                                    Camisa de Manga Larga de Mezcla de Lino Caro
-                                    Pane
-                                  </a>
-                                  <div className="ps-product__rating">
-                                    <select
-                                      className="ps-rating"
-                                      data-read-only="true"
-                                    >
-                                      <option value={1}>1</option>
-                                      <option value={1}>2</option>
-                                      <option value={1}>3</option>
-                                      <option value={1}>4</option>
-                                      <option value={2}>5</option>
-                                    </select>
-                                    <span>01</span>
-                                  </div>
-                                  <p className="ps-product__vendor">
-                                    Vendido por:<a href="#">Go Pro</a>
-                                  </p>
-                                  <ul className="ps-product__desc">
-                                    <li>
-                                      Altavoz estéreo activo portátil sin
-                                      restricciones
-                                    </li>
-                                    <li>Libre de cables y cuerdas</li>
-                                    <li>20 horas de capacidad portátil</li>
-                                    <li>
-                                      Cable de doble extremo con enchufes
-                                      estéreo de 3.5 mm incluido
-                                    </li>
-                                    <li>
-                                      Tweeters de cúpula de 3/4″: 2X y Woofer de
-                                      4″: 1X
-                                    </li>
-                                  </ul>
-                                </div>
-                                <div className="ps-product__shopping">
-                                  <p className="ps-product__price">
-                                    $29.39 - $39.99
-                                  </p>
-                                  <a className="ps-btn" href="#">
-                                    Agregar al carrito
-                                  </a>
-                                  <ul className="ps-product__actions">
-                                    <li>
-                                      <a href="#">
-                                        <i className="icon-eye" />
-                                        Ver
-                                      </a>
-                                    </li>
-                                    <li>
-                                      <a href="#">
-                                        <i className="icon-heart" /> Lista de
-                                        deseos
-                                      </a>
-                                    </li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div>
-                            {/* Fin del Producto */}
-                            {/*=====================================
-Producto
-======================================*/}
-                            <div className="ps-product ps-product--wide">
-                              <div className="ps-product__thumbnail">
-                                <a href="product-default.html">
-                                  <img src="img/products/shop/11.jpg" alt />
-                                </a>
-                              </div>
-                              <div className="ps-product__container">
-                                <div className="ps-product__content">
-                                  <a
-                                    className="ps-product__title"
-                                    href="product-default.html"
-                                  >
-                                    Shorts de Running y Natación para Hombres
-                                  </a>
-                                  <div className="ps-product__rating">
-                                    <select
-                                      className="ps-rating"
-                                      data-read-only="true"
-                                    >
-                                      <option value={1}>1</option>
-                                      <option value={1}>2</option>
-                                      <option value={1}>3</option>
-                                      <option value={1}>4</option>
-                                      <option value={2}>5</option>
-                                    </select>
-                                    <span>01</span>
-                                  </div>
-                                  <p className="ps-product__vendor">
-                                    Vendido por:<a href="#">Tienda de Robert</a>
-                                  </p>
-                                  <ul className="ps-product__desc">
-                                    <li>
-                                      Altavoz estéreo activo portátil sin
-                                      restricciones
-                                    </li>
-                                    <li>Libre de cables y cuerdas</li>
-                                    <li>20 horas de capacidad portátil</li>
-                                    <li>
-                                      Cable de doble extremo con enchufes
-                                      estéreo de 3.5 mm incluido
-                                    </li>
-                                    <li>
-                                      Tweeters de cúpula de 3/4″: 2X y Woofer de
-                                      4″: 1X
-                                    </li>
-                                  </ul>
-                                </div>
-                                <div className="ps-product__shopping">
-                                  <p className="ps-product__price">$13.43</p>
-                                  <a className="ps-btn" href="#">
-                                    Agregar al carrito
-                                  </a>
-                                  <ul className="ps-product__actions">
-                                    <li>
-                                      <a href="#">
-                                        <i className="icon-eye" />
-                                        Ver
-                                      </a>
-                                    </li>
-                                    <li>
-                                      <a href="#">
-                                        <i className="icon-heart" /> Lista de
-                                        deseos
-                                      </a>
-                                    </li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div>
-                            {/* Fin del Producto */}
-                          </div>
                           <div className="ps-pagination">
                             <ul className="pagination">
                               <li className="active">
