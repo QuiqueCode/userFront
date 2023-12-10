@@ -12,6 +12,7 @@ import PoliticasUsuarios from './components/PoliticasUsuarios/PoliticasUsuarios'
 import SerVendedor from './components/Become-vendor/become-vendor';
 import CarritoCompras from './components/CarritoCompras/CarritoCompras';
 import Checkout from './components/Checkout/Checkout';
+import { Products } from './components/Body/Products/Products';
 
 function App() {
   return (
@@ -30,7 +31,9 @@ function App() {
           </Routes>
           
         </div>
+        
         <Footer/>
+        
       </>
     </Router>
   )
