@@ -1,0 +1,7 @@
+input{
+    width: fit-content;
+}
+
+button :hover{
+    outline: none;
+}
