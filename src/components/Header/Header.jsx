@@ -77,13 +77,13 @@ const Header = () => {
                 <li>
                   <div className="ps-dropdown language">
                     <a href="#">
-                      <img src="src/img/template/en.png" alt />
-                      Inglés
+                      <img src="src/img/template/es.png" alt />
+                      Español
                     </a>
                     <ul className="ps-dropdown-menu">
                       <li>
                         <a href="#">
-                          <img src="src/img/template/es.png" alt /> Español
+                          <img src="src/img/template/en.png" alt /> Inglés
                         </a>
                       </li>
                     </ul>
@@ -861,14 +861,6 @@ const Header = () => {
               {/*=====================================
               Inicio de Sesión y Registro
               ======================================*/}
-              <div className="ps-block--user-header">
-                <div className="ps-block__left">
-                  <i className="icon-user" />
-                </div>
-                <div className="ps-block__right">
-                  <a href="usuarioCliente/configurarPerfil.html">Mi Cuenta</a>
-                </div>
-              </div>
             </div>
           </div>
         </div>
