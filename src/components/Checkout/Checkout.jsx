@@ -13,7 +13,7 @@ const Checkout = () => {
             <section className="selection">
               <h2>Selección de productos</h2>
               <ul className="products" />
-              <a href="/grupoTres/realizar_Proceso_Compras.html">
+              <a href="/products">
                 <button className="btn-add" style={{width:"fit-content"}}>Agregar producto</button>
               </a>
             </section>
@@ -48,11 +48,11 @@ const Checkout = () => {
                 <br />
                 <input
                   className="Cedula"
-                  type="text"
+                  type="number"
                   placeholder="Número de cédula o ID"
                 />
                 <br />
-                <input className="Telefono" type="tel" placeholder="Teléfono" />
+                <input className="Telefono" type="number" placeholder="Teléfono" />
                 <br />
                 <input
                   className="Direccion"
@@ -95,7 +95,7 @@ const Checkout = () => {
                 <li className="list-group-item">
                   <input
                     className="tarjeta"
-                    type="text"
+                    type="number"
                     placeholder="Número de tarjeta"
                   />
                   <br />
@@ -107,12 +107,12 @@ const Checkout = () => {
                   <br />
                   <input
                     className="fecha"
-                    type="text"
+                    type="number"
                     placeholder="Mes de Vencimiento (MM)"
                   />
                   <input
                     className="fecha"
-                    type="text"
+                    type="number"
                     placeholder="Año de Vencimiento (AA)"
                   />
                   <input

@@ -27,12 +27,12 @@ const CarritoCompras = () => {
                     <td>
                       <div className="ps-product--cart">
                         <div className="ps-product__thumbnail">
-                          <a href="product-default.html">
+                          <a href="/products">
                             <img src="assets/products/electronic/1.jpg" alt />
                           </a>
                         </div>
                         <div className="ps-product__content">
-                          <a href="product-default.html">
+                          <a href="/products">
                             Marshall Kilburn Wireless Bluetooth Speaker, Black
                             (A4819189)
                           </a>
@@ -67,12 +67,12 @@ const CarritoCompras = () => {
                     <td>
                       <div className="ps-product--cart">
                         <div className="ps-product__thumbnail">
-                          <a href="product-default.html">
+                          <a href="/products">
                             <img src="assets/products/clothing/2.jpg" alt />
                           </a>
                         </div>
                         <div className="ps-product__content">
-                          <a href="product-default.html">
+                          <a href="/products">
                             Unero Military Classical Backpack
                           </a>
                           <p>
@@ -114,7 +114,7 @@ const CarritoCompras = () => {
               </div>
             </div>
             <div className="ps-section__cart-actions">
-              <a className="ps-btn" href="categories.html.html">
+              <a className="ps-btn" href="/">
                 <i className="icon-arrow-left" /> Back to Shop
               </a>
               <a className="ps-btn" href="/pago">
