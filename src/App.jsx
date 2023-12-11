@@ -13,6 +13,8 @@ import SerVendedor from './components/Become-vendor/become-vendor';
 import CarritoCompras from './components/CarritoCompras/CarritoCompras';
 import Checkout from './components/Checkout/Checkout';
 import About from './components/Blog/About';
+import { Products } from './components/Body/Products/Products';
+import { Index } from './components/Body/Index/Index';
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
           <Header />
           <Routes>
            
+          <Route path='/' element={<Index></Index>}/>
+          <Route path='/products' element={<Products></Products>}/>
 
           <Route path='/listaTiendas' element={<ListaTienda></ListaTienda>}/>
           <Route path='/politicas' element={<PoliticasUsuarios></PoliticasUsuarios>}/>
@@ -32,7 +36,6 @@ function App() {
           </Routes>
           
         </div>
-
         <Footer/>
         
       </>

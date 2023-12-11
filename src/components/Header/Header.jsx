@@ -2,6 +2,7 @@ import React from "react";
 import "./linearIcons.css";
 import { FaFacebookSquare, FaInstagramSquare, FaYoutubeSquare   } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -119,11 +120,14 @@ const Header = () => {
                 </div>
                 <div className="menu__content">
                   <ul className="menu--dropdown">
-                    <li>
-                      <a href="categories.html">
-                        <i className="icon-star" /> Promociones Calientes
-                      </a>
-                    </li>
+
+
+                  <li>
+                    <Link to="/serVendedor">
+                      <i className="icon-star" /> Guía del comprador
+                    </Link>  
+                  </li>
+
                     <li className="menu-item-has-children has-mega-menu">
                       <a href="categories.html">
                         <i className="icon-laundry" /> Electrónica de Consumo
@@ -892,16 +896,7 @@ const Header = () => {
       {/*=====================================
   Migajas de Pan
   ======================================*/}
-      <div className="ps-breadcrumb">
-        <div className="container">
-          <ul className="breadcrumb">
-            <li>
-              <a href="index.html">Inicio</a>
-            </li>
-            <li>Categorías</li>
-          </ul>
-        </div>
-      </div>
+
     </>
   );
 };

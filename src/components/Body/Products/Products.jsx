@@ -50,16 +50,7 @@ export function Products() {
                 <h1>Sofá largo de tela de Corea en color azul marino</h1>
                 <div className="ps-product__meta">
                   <p>Brand:<a href="shop-default.html">Gallaxy</a></p>
-                  <div className="ps-product__rating">
-                    <select className="ps-rating" data-read-only="true">
-                      <option value={1}>1</option>
-                      <option value={1}>2</option>
-                      <option value={1}>3</option>
-                      <option value={1}>4</option>
-                      <option value={2}>5</option>
-                    </select>
-                    <span>(1 review)</span>
-                  </div>
+                
                 </div>
                 <h4 className="ps-product__price sale">$93.59
                   <del> $125.17</del><small> (-25%)</small>

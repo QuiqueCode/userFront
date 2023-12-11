@@ -9,14 +9,7 @@ const beacomeVendor = () => {
   {/*=====================================
     Breadcrumb
     ======================================*/}
-  <div className="ps-breadcrumb">
-    <div className="container">
-      <ul className="breadcrumb">
-        <li><a href="index.html">Home</a></li>
-        <li>Conviértete en vendedor</li>
-      </ul>
-    </div>
-  </div>
+
   {/*=====================================
     Become a Vendor Content
     ======================================*/}
