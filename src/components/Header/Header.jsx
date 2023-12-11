@@ -107,7 +107,7 @@ const Header = () => {
               {/*=====================================
 					Logotipo
 					======================================*/}
-              <a className="ps-logo" href="index.html">
+              <a className="ps-logo" href="/">
                 <img src="src/img/icons/ticoMarket.png" alt />
               </a>
               {/*=====================================
