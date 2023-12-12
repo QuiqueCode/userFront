@@ -19,6 +19,7 @@ import { Index } from './components/Body/Index/Index';
 import Tecnologia from './components/Categorias/Tecnologia';
 import Ropa from './components/Categorias/Ropa';
 import Casa from './components/Categorias/Casa';
+import { Preguntas } from './components/chino/preguntasFrecuentes';
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
           <Route path='/tecnologia' element={<Tecnologia/>} />
           <Route path='/ropa' element={<Ropa/>} />
           <Route path='/casa' element={<Casa/>} />
+          <Route path='/preguntas' element={<Preguntas></Preguntas>} />
           </Routes>
           
         </div>

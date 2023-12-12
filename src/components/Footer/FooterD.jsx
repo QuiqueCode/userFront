@@ -40,9 +40,10 @@ export function Footer(){
             <Link to="./politicas">
             <li><a href="politicas.html">Política</a></li>
             </Link>
-   
-            <li><a href="contact-us.html">Términos y condiciones</a></li>
+            <Link to="/preguntas">
             <li><a href="faqs.html">Preguntas frecuentes</a></li>
+            </Link>
+     
             <Link to="/about">
               About
             </Link>
@@ -56,12 +57,9 @@ export function Footer(){
           <h4 className="widget-title">Negocios y Servicios</h4>
           <ul className="ps-list--link">
             <li><a href="/pago">Pagar</a></li>
-            <li><a href="my-account_my-sales.html">Mi cuenta</a></li>
             <Link to="/listaTiendas">
             <li><a href="store-list.html">Tienda</a></li>
             </Link>
-     \
-            <li><a href="index.html">Publicidad</a></li>
           </ul>
         </aside>
       </div>
