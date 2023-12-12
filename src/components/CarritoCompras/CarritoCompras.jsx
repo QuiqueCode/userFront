@@ -28,7 +28,7 @@ const CarritoCompras = () => {
                       <div className="ps-product--cart">
                         <div className="ps-product__thumbnail">
                           <a href="/products">
-                            <img src="assets/products/electronic/1.jpg" alt />
+                            <img src="src/img/products/detail/countdown/1.jpg" alt />
                           </a>
                         </div>
                         <div className="ps-product__content">
@@ -63,45 +63,7 @@ const CarritoCompras = () => {
                       </a>
                     </td>
                   </tr>
-                  <tr>
-                    <td>
-                      <div className="ps-product--cart">
-                        <div className="ps-product__thumbnail">
-                          <a href="/products">
-                            <img src="assets/products/clothing/2.jpg" alt />
-                          </a>
-                        </div>
-                        <div className="ps-product__content">
-                          <a href="/products">
-                            Unero Military Classical Backpack
-                          </a>
-                          <p>
-                            Sold By:<strong> YOUNG SHOP</strong>
-                          </p>
-                        </div>
-                      </div>
-                    </td>
-                    <td className="price">$205.00</td>
-                    <td className="text-center">$2</td>
-                    <td>
-                      <div className="form-group--number">
-                        <button className="up">+</button>
-                        <button className="down">-</button>
-                        <input
-                          className="form-control"
-                          type="text"
-                          placeholder={1}
-                          defaultValue={1}
-                        />
-                      </div>
-                    </td>
-                    <td>$207.00</td>
-                    <td>
-                      <a href="#">
-                        <i className="icon-cross" />
-                      </a>
-                    </td>
-                  </tr>
+                 
                 </tbody>
               </table>
             </div>
@@ -109,7 +71,7 @@ const CarritoCompras = () => {
             <div className="d-flex flex-row-reverse">
               <div className="p-2">
                 <h3>
-                  Total <span>$414.00</span>
+                  Total <span>$207.00</span>
                 </h3>
               </div>
             </div>

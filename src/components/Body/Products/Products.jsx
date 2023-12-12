@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 export function Products() {  
     
@@ -132,7 +133,11 @@ export function Products() {
                     </div>
                   </figure>
                   <a className="ps-btn ps-btn--black" href="#">Agregar al carrito</a>
-                  <a className="ps-btn" href="#">Comprar Ahora</a>
+                  
+                  <Link to="/carrito">
+                  <a className="ps-btn">Comprar Ahora</a>
+                 </Link>
+                  
                   <div className="ps-product__actions">
                     <a href="#">
                       <i className="icon-heart" />

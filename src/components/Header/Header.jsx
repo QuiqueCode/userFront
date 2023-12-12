@@ -128,73 +128,16 @@ const Header = () => {
                     </Link>  
                   </li>
 
-                    <li className="menu-item-has-children has-mega-menu">
-                      <a href="categories.html">
-                        <i className="icon-laundry" /> Electrónica de Consumo
-                      </a>
-                      <div className="mega-menu">
-                        <div className="mega-menu__column">
-                          <h4>
-                            Electrónica
-                            <span className="sub-toggle" />
-                          </h4>
-                          <ul className="mega-menu__list">
-                            <li>
-                              <a href="categories.html">
-                                Audio para el Hogar y Teatros
-                              </a>
-                            </li>
-                            <li>
-                              <a href="#">TV y Videos</a>
-                            </li>
-                            <li>
-                              <a href="#">Cámaras, Fotos y Videos</a>
-                            </li>
-                            <li>
-                              <a href="#">Celulares y Accesorios</a>
-                            </li>
-                            <li>
-                              <a href="#">Auriculares</a>
-                            </li>
-                            <li>
-                              <a href="#">Videojuegos</a>
-                            </li>
-                            <li>
-                              <a href="#">Altavoces Inalámbricos</a>
-                            </li>
-                            <li>
-                              <a href="#">Electrónica de Oficina</a>
-                            </li>
-                          </ul>
-                        </div>
-                        <div className="mega-menu__column">
-                          <h4>
-                            Accesorios y Partes
-                            <span className="sub-toggle" />
-                          </h4>
-                          <ul className="mega-menu__list">
-                            <li>
-                              <a href="#">Cables Digitales</a>
-                            </li>
-                            <li>
-                              <a href="#">Cables de Audio y Video</a>
-                            </li>
-                            <li>
-                              <a href="#">Baterías</a>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </li>
                     <li>
-                      <a href="#">
-                        <i className="icon-shirt" /> Ropa y Accesorios
-                      </a>
+                    <Link to="/listaTiendas">
+                        <i className="icon-shirt" /> Tiendas
+                    </Link>  
                     </li>
+
                     <li>
-                      <a href="#">
-                        <i className="icon-lampshade" /> Hogar, Jardín y Cocina
-                      </a>
+                    <Link to="/categorias">
+                        <i className="icon-lampshade" /> Categorías
+                        </Link>  
                     </li>
                     <li>
                       <a href="#">
