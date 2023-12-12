@@ -1,8 +1,12 @@
 import React from "react";
 import "./linearIcons.css";
-import { FaFacebookSquare, FaInstagramSquare, FaYoutubeSquare   } from "react-icons/fa";
+import {
+  FaFacebookSquare,
+  FaInstagramSquare,
+  FaYoutubeSquare,
+} from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -48,22 +52,22 @@ const Header = () => {
               <ul className="d-flex justify-content-center">
                 <li>
                   <a href="#" target="_blank">
-                  <FaFacebookSquare />
+                    <FaFacebookSquare />
                   </a>
                 </li>
                 <li>
                   <a href="#" target="_blank">
-                  <FaInstagramSquare />
+                    <FaInstagramSquare />
                   </a>
                 </li>
                 <li>
                   <a href="#" target="_blank">
-                  <FaSquareXTwitter />
+                    <FaSquareXTwitter />
                   </a>
                 </li>
                 <li>
                   <a href="#" target="_blank">
-                  <FaYoutubeSquare  />
+                    <FaYoutubeSquare />
                   </a>
                 </li>
               </ul>
@@ -121,34 +125,42 @@ const Header = () => {
                 <div className="menu__content">
                   <ul className="menu--dropdown">
 
-
                   <li>
-                    <Link to="/serVendedor">
-                      <i className="icon-star" /> Guía del comprador
-                    </Link>  
-                  </li>
+                      <Link to="/tecnologia">
+                        <i className="icon-smartphone" /> Tecnología
+                      </Link>
+                    </li>
 
                     <li>
-                    <Link to="/listaTiendas">
+                    <Link to="/ropa">
+                        <i className="icon-shirt" /> Ropa y Calzado
+                    </Link>
+                    </li>
+
+                    <li>
+                    <Link to="/casa">
+                        <i className="icon-home" /> Productos del Hogar
+                    </Link>
+                    </li>
+                    
+                    <li>
+                      <Link to="/serVendedor">
+                        <i className="icon-star" /> Guía del comprador
+                      </Link>
+                    </li>
+
+                    <li>
+                      <Link to="/listaTiendas">
                         <i className="icon-shirt" /> Tiendas
-                    </Link>  
+                      </Link>
                     </li>
 
                     <li>
-                    <Link to="/categorias">
+                      <Link to="/categorias">
                         <i className="icon-lampshade" /> Categorías
-                        </Link>  
+                      </Link>
                     </li>
-                    <li>
-                      <a href="#">
-                        <i className="icon-heart-pulse" /> Salud y Belleza
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="icon-diamond2" /> Joyería y Relojes
-                      </a>
-                    </li>
+
                     <li className="menu-item-has-children has-mega-menu">
                       <a href="#">
                         <i className="icon-desktop" /> Computadoras y Tecnología
@@ -356,22 +368,22 @@ const Header = () => {
             <ul className="d-flex justify-content-center">
               <li>
                 <a href="#" target="_blank">
-                <FaFacebookSquare />
+                  <FaFacebookSquare />
                 </a>
               </li>
               <li>
                 <a href="#" target="_blank">
-                <FaInstagramSquare />
+                  <FaInstagramSquare />
                 </a>
               </li>
               <li>
                 <a href="#" target="_blank">
-                  <FaSquareXTwitter/>
+                  <FaSquareXTwitter />
                 </a>
               </li>
               <li>
                 <a href="#" target="_blank">
-                <FaYoutubeSquare  />
+                  <FaYoutubeSquare />
                 </a>
               </li>
             </ul>
@@ -839,7 +851,6 @@ const Header = () => {
       {/*=====================================
   Migajas de Pan
   ======================================*/}
-
     </>
   );
 };

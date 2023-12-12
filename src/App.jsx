@@ -16,6 +16,9 @@ import About from './components/Blog/About';
 import Categorias from './components/Categorias/Categorias';
 import { Products } from './components/Body/Products/Products';
 import { Index } from './components/Body/Index/Index';
+import Tecnologia from './components/Categorias/Tecnologia';
+import Ropa from './components/Categorias/Ropa';
+import Casa from './components/Categorias/Casa';
 
 function App() {
   return (
@@ -35,6 +38,9 @@ function App() {
           <Route path='/pago' element={<Checkout></Checkout>}/>
           <Route path='/about' element={<About/>} />
           <Route path='/categorias' element={<Categorias/>} />
+          <Route path='/tecnologia' element={<Tecnologia/>} />
+          <Route path='/ropa' element={<Ropa/>} />
+          <Route path='/casa' element={<Casa/>} />
           </Routes>
           
         </div>
